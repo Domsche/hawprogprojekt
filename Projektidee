@@ -1,0 +1,3 @@
+//Programm, welches den Status einer Roman/Serie/Filmfigur zu einem bestimmten Zeitpunkt wieder gibt. Status kann sich hierbei
+//auf den geographischen Standpunkt, Lebensstatus oder Plot beziehen. User soll nach auswahl der Figur Status per Text oder auch per
+//Karte angezeigt bekommen.
