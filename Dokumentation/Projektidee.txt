@@ -4,10 +4,10 @@
 //Hierbei werden aus kleineren Gegenständen zu stärkeren verschmolzen. Das Ergebnis soll vorgegeben werden, die Komponenten müssen //erraten werden.
 
 //Funktionsweise.
-//Die Eingabe der Komponenten soll entweder durch das anklicken von den einzelnen Icons funktionieren, oder per Drag & Drop der Icons in //ein vorgegebenes Feld. 
+//Die Eingabe der Komponenten soll entweder durch das anklicken von den einzelnen Icons funktionieren, oder per Drag & Drop der Icons in ein vorgegebenes Feld. 
 //Die Angabe der möglichen Komponenten soll neben den richtigen auch zufällig andere Bausteine anzeigen. 
 //Antwort wird durch "Bestätigen" Button abgeschickt.
 //
 //Spielprinzip:
-//Das Quiz vergibt für jede richtige Antwort Punkte. Diese sollen bei einer Serie von richtigen Antworten stetig steigen (ab 5 richtigen //Antworten z.B. 200 pro richtige antwort statt 100). Falsche Antworten unterbrechen die Serie und geben Abzug.
-//Nach Abschluss soll das Ergebnis in der HighScore-Liste verzeichnet werden.
+//Das Quiz vergibt für jede richtige Antwort Punkte. Diese sollen bei einer Serie von richtigen Antworten stetig steigen (ab 5 richtigen Antworten z.B. 200 pro richtige antwort statt 100). Falsche Antworten unterbrechen die Serie und geben Abzug.
+//Nach Abschluss soll das Ergebnis in der HighScore-Liste verzeichnet werden und ein Name kann eingetragen werden.
