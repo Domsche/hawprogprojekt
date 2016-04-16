@@ -101,3 +101,21 @@ Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später währen
 
 Viele Grüße,
 Markus Alpers
+
+======================================================
+Überarbeitete Projektidee: Spiel Targi
+
+Spielprinzip:
+Spieler: 2
+Bausteine: Handelswaren (Salz, Daddeln, Pfeffer, Gold), Siegpunkte,1x Räuberfigur, Spielerfiguren (3x pro Spieler), 
+Spielmarker (2x pro Spieler), Handelskarten, Stammeskarten (Gebäude)
+Ziel und Ablauf: Bei Targi müssen zwei Karawanen durch Handel von Ressourcen (Salz, Daddeln, Pfeffer, Gold) Siegpunkte ergattern. Wer am Ende am meisten Siegpunkte gesammelt hat gewinnt. Jeder Spieler darf seine Spielfiguren auf dem Spielfeld platzieren, allerdings nicht auf dem Feld des Räubers und nicht auf einem Feld, welches gegenüber einer bereits gesetzten Figur vom Gegner liegt. Bei den beiden Treffpunkten der ausliegenden Spielfiguren, darf jeder Spieler einen Spielmarker platzieren. Dadurch kann er die Karte auf dem der Spielmarker platziert ist in seinem Zug benutzen. 
+
+Anforderungen an das Programm:
+Das Programm soll hierbei das Spielfeld darstellen und eine Übersicht zum aktuellen Inventar der Handelswaren. 
+Das Spiel läuft in 2 Phasen; der Platzierungsphase und der Spielephase.
+In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren zu setzen. Der Räuber wird hier zunächst um ein Feld weiter verschoben vom System. Unregluäre Platzierungen werden durch Erinnerung an die Regeln beantwortet. Die aus den Platzierungen der Spielfiguren hervorgehenden Plätze der Spielmarker sollen automatisch vom System erstellt werden. 
+Während der Spielphase sollen die einzelnen Schritte in beliebiger Reihenfolge vom User durch Klicken der Figuren und Marker umgesetzt werden. Folgen werden im Spiellog ausgegeben. Bei unregulären Zügen wird eine Fehlermeldung gegeben.
+
+Kommentar:
+Da ich direkt Aufgabe 2 im Hinterkopf habe, schrieb ich die Projektidee hier etwas detailierter aus als in der ursprünglichen Fragestellung vorgegeben. Ich denke ausgeschrieben fällt es mir leichter im folgenden Aufgabenteil die strukturellen Bestandteile Aufzuschreiben und zu gliedern.
