@@ -1,4 +1,87 @@
+=======================================
+=== Projektidee Domsche, 2016-05-11 ===
+=======================================
+
+Spielprinzip:
+Spieler: 2
+Bausteine: 
+Handelswaren (Salz, Daddeln, Pfeffer, Gold), Siegpunkte,1x Räuberfigur, Spielerfiguren (3x pro Spieler), 
+Spielmarker (2x pro Spieler), Handelskarten, Stammeskarten (Gebäude)
+
+Ziel und Ablauf: 
+Bei Targi müssen zwei Karawanen durch Handel von Ressourcen (Salz, Daddeln, Pfeffer, Gold) Siegpunkte ergattern. 
+Wer am Ende am meisten Siegpunkte gesammelt hat gewinnt. 
+Jeder Spieler darf seine Spielfiguren auf dem Spielfeld platzieren, allerdings nicht auf dem Feld des Räubers und nicht auf einem Feld, welches gegenüber einer bereits gesetzten Figur vom Gegner liegt. 
+Bei den beiden Treffpunkten der ausliegenden Spielfiguren, darf jeder Spieler einen Spielmarker platzieren. 
+Dadurch kann er die Karte auf dem der Spielmarker platziert ist in seinem Zug benutzen. 
+
+Anforderungen an das Programm:
+Das Programm soll hierbei das Spielfeld darstellen und eine Übersicht zum aktuellen Inventar der Handelswaren. 
+Das Spiel läuft in 2 Phasen; der Platzierungsphase und der Spielephase.
+In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren zu setzen. 
+Der Räuber wird hier zunächst um ein Feld weiter verschoben vom System. 
+Unregluäre Platzierungen werden durch Erinnerung an die Regeln beantwortet. 
+Die aus den Platzierungen der Spielfiguren hervorgehenden Plätze der Spielmarker sollen automatisch vom System erstellt werden. 
+Während der Spielphase sollen die einzelnen Schritte in beliebiger Reihenfolge vom User durch Klicken der Figuren und Marker umgesetzt werden. 
+Folgen werden im Spiellog ausgegeben. 
+Bei unregulären Zügen wird eine Fehlermeldung gegeben.
+Zu jeder Zeit soll im Programm eine OptionsSchaltfläche benutzbar sein, über die die Anwendung gesteuert wird (Sound, Regeln, etc).
+
+Aufbau der Seite:
+Im Hauptpart der Seite befindet sich die Anwendung. 
+Im Hintergrund wird das Spiellogo gelegt sein und Banner platziert. 
+Zusätzlich soll das Spiellog auch als Chatlog dienen. 
+Daher auch Accounterstellung und Login bei Start der Anwendung. 
+Adminlogin ist seperat auf der Seite verbaut. 
+Webbanner als Link zu Facebookpage.
+Regeln können über einen Link geöffnet werden (entweder Downloadlink PDF oder link auf eine weitere Seite, wo die Regeln stehen).
+Zusätzlich läuft noch Hintergrnudmusik die abstellbar ist. 
+
+===================================
+=== Feedback Alpers, 2016-05-11 ===
+===================================
+
+Zunächst kommen wir zu einer der wichtigsten Grundlagen der Projektarbeit: Wenn Sie ohne Absprache mit einem Kunden (dessen Part ich als Dozent übernehme) etwas umsetzen, dass nicht dem entspricht, was er will, dann ist die Konsequenz im schlimmsten Fall, dass Sie einen Auftrag verlieren. In jedem Fall aber werden Sie für geleistete Arbeit nichts erhalten, weil Sie etwas erstellt haben, das der Kunde nicht will. Und laut Dokumentation sollten Sie das Brettspiel Bürger, Baumeister & Co. umsetzen. Hätten wir das Brettspiel "Targi" für Sie vereinbart, dann wäre das folgende mein Feedback gewesen:
+
+Leider ist Ihre Beschreibung noch deutlich zu nahe am Regelwerk des Spiels.
+
+Eine Zusammenfassung (in zwei oder drei Säzten) sollte das Interesse am Spiel wecken, also müssen Sie darin in sehr knapper Form den Kern des Spiels zusammenfassen. Und der hat mit dem Zählen von Punkte oder der Anzahl von Spielfeldern nichts zu tun. 
+
+Danach sollte die Beschreibung alle für Spieler relevanten Teile des Spiels beinhalten. Hier sind Sie leider auch zu nahe am Brettspiel: Bei einem Computerspiel können Sie beispielsweise die möglichen Felder hervorheben, auf die Spieler Ihre Spielfigur ziehen können. (Hier beziehe ich mich auf die folgende Ihrer Notizen: "Unregluäre Platzierungen werden durch Erinnerung an die Regeln beantwortet. ")
+
+Und obwohl Sie relativ viel geschrieben haben, geht der Spielablauf noch nicht aus der Beschreibung hervor.
+
+Die Projektbeschreibung ist also im Kern eine Inhaltsangabe. Der Unterschied gegenüber dem Deutschunterricht ist der, dass Sie ein Computerprogramm zusammenfassen müssen, das Sie selbst konzipieren sollen und für das einige Vorgaben einzuhalten sind.
+
+Für die Umsetzung in ein Computerspiel müssen Sie jetzt genau herausarbeiten, was für Interaktionsmöglichkeiten es geben soll. Die sind wiederum die Basis für die interaktiven unter den strukturellen Elementen. Und machen Sie hier bitte nicht den Fehler, die Elemente des Brettspiels als Elemente des Computerspiels umzusetzen.
+
+Hier noch ein Absatz zum Thema Interaktion: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alle ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird. Mit den Hinweisen auf Log-In und Registrierung haben Sie dafür aber schon den ersten Schritt getan.
+
+Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
+
+Wertung 2: Projektbeschreibung: gesamt: 1 / 10
+- Pro Interaktionsmöglichkeit: 1 (denn bislang kommt die Interaktion mit dem Spiel, bzw. die Adaption des Spielerverhaltens durch das Spiel noch nicht vor.)
+- Knappe aber klare Beschreibung: 0 (zu umfangreich und es ist noch nicht erkennbar, was den Kern des Spiels ausmacht.)
+- Werbeslogans u.ä.: 0 
+- Designaspekte:  0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
+
+Nun war es aber Ihre Aufgabe, das Brettspiel Bürger, Baumeister & Co. umzusetzen. Da das nicht passiert ist, ist das hier Ihre aktuelle Wertung:
+
+Wertung 2: Projektbeschreibung: gesamt: -5 / 10
+- Pro Interaktionsmöglichkeit: 0
+- Knappe aber klare Beschreibung: -5 (da es sich nicht um die Beschreibung zum geforderten Spiel handelt.)
+- Werbeslogans u.ä.: 0 
+- Designaspekte:  0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
+
+=======================================
 === Projektidee Domsche, 2016-04-12 ===
+=======================================
 
 //Projektidee: Itemquiz
 //
@@ -14,7 +97,9 @@
 //Das Quiz vergibt für jede richtige Antwort Punkte. Diese sollen bei einer Serie von richtigen Antworten stetig steigen (ab 5 richtigen Antworten z.B. 200 pro richtige antwort statt 100). Falsche Antworten unterbrechen die Serie und geben Abzug.
 //Nach Abschluss soll das Ergebnis in der HighScore-Liste verzeichnet werden und ein Name kann eingetragen werden.
 
+===================================
 === Feedback Alpers, 2016-04-12 ===
+===================================
 
 Leider beschreibt Ihr Vorschlag keine gute Projektidee im Sinne einer interaktiven Anwendung, weil es sich um eine Datenbankanwendung handelt. Das bedeutet, dass es bei der Umsetzung Ihres Projekts vorrangig darum geht, das NutzerInnen Texte (und ggf. Dateien) hochladen können und sich diese anzeigen lassen können. (Bei Ihnen sind die Daten schon vorgegeben, NutzerInnen müssen Sie erraten.)
 
@@ -26,102 +111,7 @@ Es gibt noch einen weiteren Kritikpunkt an Ihrer Beschreibung: Für das Projekt 
 - NutzerInnen können Icons anwählen und in ein Raster verschieben. Die Reaktion des Programms besteht darin, ob die Auswahl richtig oder falsch war.
 - NutzerInnen können sich eine Highscoreliste anzeigen lassen.
 
+===============================================================
 === Zweiter Aufgabenblock (identisch für alle Studierenden) ===
-
-Sie haben jetzt gezeigt, dass Sie einfache Arbeiten mit einem Git-Repository beherrschen.
-Als Teil der letzten Aufgabe sollten Sie beschreiben, was Ihre Anwendung tun soll, also was für Funktionalitäten Ihre Anwendung bieten soll.
-Wenn Sie hier nichts angegeben haben, dann werde ich Ihnen einen Vorschlag hochladen, mit dem Sie weiterarbeiten können.
-In der Veranstaltung haben Sie außerdem gelernt, was Markup Languages sind.
-
-Die nächste Aufgabe besteht aus den folgenden Teilen:
-
-1.) Lesen Sie mein Feedback durch und setzen Sie die beschriebenen Aufgaben um.
-
-Für die folgende Aufgabe sollten Sie mindestens eine halbe Stunde investieren. Zwei Stunden wäre aber etwas zu viel des guten.
-Bearbeiten Sie die Aufgaben 2. und 3. bitte innerhalb von 48 Stunden, weil andere Studierende davon abhängen, dass Sie sie beendet haben.
-Bearbeiten Sie die Aufgaben auf jeden Fall in der vorgegebenen Reihenfolge.
-Und bearbeiten Sie eine Aufgabe nicht nachträglich nochmal. (Wenn Sie also z.B. Aufgabe 3. bearbeiten, dann ändern Sie bitte nichts an Aufgabe 1. nachträglich ab. Dafür wird später noch genug Zeit sein.)
-
-2.) Bennen Sie die strukturellen Elemente, aus denen Ihre Anwendung bestehen soll.
-Es ist dabei egal, ob es diese Elemente in HTML gibt.
-Es ist auch egal, ob Sie sich schon in HTML eingearbeitet haben.
-Wichtig ist nur, dass Sie die strukturellen Elemente benennen, aus der die Anwendung bestehen soll.
-Speichern Sie diese Aufstellung als HTML-Kommentar in einer Datei mit dem Namen
-
-strukt.html
-
-, die Sie in Ihrem Repository abspeichern. Wichtig: Die Datei soll nicht im Unterverzeichnis Dokumentation des Repositories gespeichert werden, weil sie die Basis für das erste HTML-Dokument werden wird.
-
-Wenn Sie noch unsicher sind: Strukturelle Elemente können alles mögliche sein:
-- Tabellen
-- Listen
-- Schaltflächen
-- Textfelder
-- Bildbereiche
-- Hintergrundmusik
-- Absätze
-- ...
-
-In anderen Worten: Ein strukturelles Element ist etwas, das ein abgegrenzter Teil der Anwendung ist.
-Notieren Sie kurz, welche Funktion jedes der von Ihnen genannten Elemente haben soll.
-
-Hier einige Beispiele:
-- Schaltfläche (Nutzer können per Klick bestätigen, dass eine Eingabe abgeschickt werden soll.)
-- Textfeld für Namen (Nutzer können Ihren Nachnamen eintragen.)
-- Log-In-Maske (Bereich, in dem Nutzer sich einloggen können.)
-- - Teile der Log-In-Maske:
-- - Textfeld für Username
-- - Textfeld, das die Eingabe nicht anzeigt, fürs Passwort
-- Tabelle, 7 x 5 Felder (Jedes Feld soll ein Bild anzeigen, das ein Feld des Spielbretts ist. Wenn Nutzer ein Feld anwählen, soll ein Menü erscheinen.)
-- - Menü für jedes Feld der Tabelle mit Texteinträgen (Eintrag für "Gebäude abreißen", "Feld kaufen")
-- Hintergrundbild (Hier sollen einzelne Bilder als Diashow eingeblendet werden.)
-- Werbebanner
-- Schaltfläche für die Maskierung von NSFW (NSFW = Not safe for work)(NutzerInnen können über diese Schaltfläche eine andere Anwendung in der Vordergrund einblenden lassen, damit der Chef nicht sieht, dass sie gerade spielen.)
-
-3.) Schauen Sie jetzt in der Liste der Repositories (nicht in der Tabelle der Accounts) nach, welche zehn Repositories vor und nach Ihrem Repository aufgeführt sind und geben Sie den Besitzern dieser Repositories Zugriffsrechte auf Ihr Repository.
-
-Bsp.: Sie haben das Repository BerndStromberg. Dann folgen die zehn Repositories der Nutzer BlackWolf63, Cantinaband, CaptainWeasle, ColePfeiffer, CurvLietzau,
-DangerDulf, dnbdel, Domsche, Eldinox und Eupuco und vor Ihnen gibt es die fünf Repositories der Nutzer 2238867, amelie-beh, Anger21, anita1997 und Asphalon. all diesen Accounts geben Sie jetzt Zugriffsrechte auf Ihr Repository, so wie Sie das schon für mich getan haben. Wenn Sie, wie BerndStrommberg zu weit am Anfang der Liste stehen (hier gibt es ja nur fünf andere Accounts bis zum Anfang der Liste), dann geben Sie zusätzlich noch den Besitzern der letzten fünf Repositories Zugriffsrechte. Es sollten insgesamt 20 Accounts Zugriffsrecht haben.
-
-Für die nächsten zwei Aufgaben sollten Sie pro Repository zwischen zehn Minuten und einer Stunde aufwenden. Weniger ist zu wenig und mehr ist zu viel.
-Beachten Sie dabei bitte, dass Sie hier letzten Endes Kritik an der Arbeit eines/einer anderen üben und das einige von Ihnen noch nie programmiert haben. Arbeiten Sie deshalb bitte daran, alles, was Sie ergänzen so neutral und höflich wie möglich zu formulieren, denn Unwissenheit und mangelndes Verständnis fürs Programmieren sind eben nicht das selbe wie Dummheit oder Faulheit.
-
-Bitte erledigen Sie diese Aufgaben innerhalb der nächsten sieben Tage.
-
-4.) Als nächstes greifen Sie auf die nach Ihrem Repository nachfolgenden fünf Repositories zu und bearbeiten hier die folgende Aufgabe. (Hier hängen Sie also davon ab, dass andere Kommilitonen Aufgabe 3. erledigt haben.) 
-
-Lesen Sie sich die Projektidee durch und machen Sie sich ähnlich wie bei 2. einfache Stichpunkte über strukturelle Elemente, die Sie bei dieser Projektidee sinnvoll finden. (Hier erstmal nur Stichpunkte, Details arbeiten Sie unter 5. aus.)
-
-5.) Öffnen Sie jetzt die Datei strukt.html des Repositories, das Sie gerade bearbeiten. Ergänzen Sie Elemente, die Sie unter 4. notiert haben und die noch nicht eingetragen sind in der unter 2. beschriebenen Form.
-
-Abschließender Hinweis zu 4. und 5.:
-
-Auch wenn das nirgends explizit steht sollen Sie Änderungen in das Repository pushen, aus dem sie die Datei strukt.html gepullt haben.
-Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später während der Projektbearbeitung) einen merge durchführen müssen. Wenn Sie sich noch nicht angesehen haben, wie das geht, dann tun Sie es jetzt.
-
-Viele Grüße,
-Markus Alpers
-
-======================================================
-Überarbeitete Projektidee: Spiel Targi
-
-Spielprinzip:
-Spieler: 2
-Bausteine: Handelswaren (Salz, Daddeln, Pfeffer, Gold), Siegpunkte,1x Räuberfigur, Spielerfiguren (3x pro Spieler), 
-Spielmarker (2x pro Spieler), Handelskarten, Stammeskarten (Gebäude)
-Ziel und Ablauf: Bei Targi müssen zwei Karawanen durch Handel von Ressourcen (Salz, Daddeln, Pfeffer, Gold) Siegpunkte ergattern. Wer am Ende am meisten Siegpunkte gesammelt hat gewinnt. Jeder Spieler darf seine Spielfiguren auf dem Spielfeld platzieren, allerdings nicht auf dem Feld des Räubers und nicht auf einem Feld, welches gegenüber einer bereits gesetzten Figur vom Gegner liegt. Bei den beiden Treffpunkten der ausliegenden Spielfiguren, darf jeder Spieler einen Spielmarker platzieren. Dadurch kann er die Karte auf dem der Spielmarker platziert ist in seinem Zug benutzen. 
-
-Anforderungen an das Programm:
-Das Programm soll hierbei das Spielfeld darstellen und eine Übersicht zum aktuellen Inventar der Handelswaren. 
-Das Spiel läuft in 2 Phasen; der Platzierungsphase und der Spielephase.
-In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren zu setzen. Der Räuber wird hier zunächst um ein Feld weiter verschoben vom System. Unregluäre Platzierungen werden durch Erinnerung an die Regeln beantwortet. Die aus den Platzierungen der Spielfiguren hervorgehenden Plätze der Spielmarker sollen automatisch vom System erstellt werden. 
-Während der Spielphase sollen die einzelnen Schritte in beliebiger Reihenfolge vom User durch Klicken der Figuren und Marker umgesetzt werden. Folgen werden im Spiellog ausgegeben. Bei unregulären Zügen wird eine Fehlermeldung gegeben.
-Zu jeder Zeit soll im Programm eine OptionsSchaltfläche benutzbar sein, über die die Anwendung gesteuert wird (Sound, Regeln, etc).
-
-Aufbau der Seite:
-Im Hauptpart der Seite befindet sich die Anwendung. Im Hintergrund wird das Spiellogo gelegt sein und Banner platziert. Zusätzlich soll das Spiellog auch als Chatlog dienen. Daher auch Accounterstellung und Login bei Start der Anwendung. Adminlogin ist seperat auf der Seite verbaut. 
-Webbanner als Link zu Facebookpage.
-Regeln können über einen Link geöffnet werden (entweder Downloadlink PDF oder link auf eine weitere Seite, wo die Regeln stehen).
-Zusätzlich läuft noch Hintergrnudmusik die abstellbar ist. 
-
-
+===============================================================
+(gelöscht, da inzwischen im Lernraum verfügbar)
