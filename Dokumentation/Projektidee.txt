@@ -2,36 +2,30 @@
 === Projektidee Domsche, 2016-05-11 ===
 =======================================
 
-Spielprinzip:
-Spieler: 2
-Bausteine: 
-Handelswaren (Salz, Daddeln, Pfeffer, Gold), Siegpunkte,1x Räuberfigur, Spielerfiguren (3x pro Spieler), 
-Spielmarker (2x pro Spieler), Handelskarten, Stammeskarten (Gebäude)
+Nach Absprache (2ter Vorlesungstermin) durfte ich das Projekt zum Spiel Targi ändern.
 
 Ziel und Ablauf: 
 Bei Targi müssen zwei Karawanen durch Handel von Ressourcen (Salz, Daddeln, Pfeffer, Gold) Siegpunkte ergattern. 
-Wer am Ende am meisten Siegpunkte gesammelt hat gewinnt. 
-Jeder Spieler darf seine Spielfiguren auf dem Spielfeld platzieren, allerdings nicht auf dem Feld des Räubers und nicht auf einem Feld, welches gegenüber einer bereits gesetzten Figur vom Gegner liegt. 
-Bei den beiden Treffpunkten der ausliegenden Spielfiguren, darf jeder Spieler einen Spielmarker platzieren. 
-Dadurch kann er die Karte auf dem der Spielmarker platziert ist in seinem Zug benutzen. 
+Hierbei erweitern sie ihre Karawane durch Stammeskarten, die Boni beim Spielablauf geben und Siegpunkte bringen. Der Räuber arbeitet gegen die Spieler.
+Spiel läuft über Platzierungsphase in der man im Spielfeld ausliegende Karten besetzt. Diese kann man dann in der Spielphase benutzen.
 
 Anforderungen an das Programm:
-Das Programm soll hierbei das Spielfeld darstellen und eine Übersicht zum aktuellen Inventar der Handelswaren. 
-Das Spiel läuft in 2 Phasen; der Platzierungsphase und der Spielephase.
-In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren zu setzen. 
-Der Räuber wird hier zunächst um ein Feld weiter verschoben vom System. 
-Unregluäre Platzierungen werden durch Erinnerung an die Regeln beantwortet. 
+Das Programm soll hierbei das Spielfeld- und Figuren darstellen . 
+In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren per Mausklick zu setzen. Mögliche Felder werden hervorgehoben
 Die aus den Platzierungen der Spielfiguren hervorgehenden Plätze der Spielmarker sollen automatisch vom System erstellt werden. 
 Während der Spielphase sollen die einzelnen Schritte in beliebiger Reihenfolge vom User durch Klicken der Figuren und Marker umgesetzt werden. 
 Folgen werden im Spiellog ausgegeben. 
 Bei unregulären Zügen wird eine Fehlermeldung gegeben.
 Zu jeder Zeit soll im Programm eine OptionsSchaltfläche benutzbar sein, über die die Anwendung gesteuert wird (Sound, Regeln, etc).
+Erreichte Siegpunkte werden in einer HighscoreListe verewigt.
+Die Größe der Kartenstapel wird im Adminbereich bestimmt. (Sind Karten leer, wird der Ablagestapel vom System gemischt)
 
 Aufbau der Seite:
-Im Hauptpart der Seite befindet sich die Anwendung. 
+Im Hauptpart der Seite (zentriert im Bildschirm, extra Fenster) befindet sich die Anwendung. 
 Im Hintergrund wird das Spiellogo gelegt sein und Banner platziert. 
-Zusätzlich soll das Spiellog auch als Chatlog dienen. 
-Daher auch Accounterstellung und Login bei Start der Anwendung. 
+Zusätzlich soll das Spiellog auch als Chatlog dienen (Rechter Rand). 
+Eine Tabelle gibt Übersicht zu Spielerinventar (überhalb des Spiellogs)
+Accounterstellung und Login bei Start der Anwendung. 
 Adminlogin ist seperat auf der Seite verbaut. 
 Webbanner als Link zu Facebookpage.
 Regeln können über einen Link geöffnet werden (entweder Downloadlink PDF oder link auf eine weitere Seite, wo die Regeln stehen).
@@ -83,19 +77,7 @@ Wertung 2: Projektbeschreibung: gesamt: -5 / 10
 === Projektidee Domsche, 2016-04-12 ===
 =======================================
 
-//Projektidee: Itemquiz
-//
-//Bei meinem Projekt soll es um eine Quiz-Anwendung gehen, die Iteminformationen aus dem Spiel Dota 2 abfragt. 
-//Hierbei werden aus kleineren Gegenständen zu stärkeren verschmolzen. Das Ergebnis soll vorgegeben werden, die Komponenten müssen //erraten werden.
-
-//Funktionsweise.
-//Die Eingabe der Komponenten soll entweder durch das anklicken von den einzelnen Icons funktionieren, oder per Drag & Drop der Icons in ein vorgegebenes Feld. 
-//Die Angabe der möglichen Komponenten soll neben den richtigen auch zufällig andere Bausteine anzeigen. 
-//Antwort wird durch "Bestätigen" Button abgeschickt.
-//
-//Spielprinzip:
-//Das Quiz vergibt für jede richtige Antwort Punkte. Diese sollen bei einer Serie von richtigen Antworten stetig steigen (ab 5 richtigen Antworten z.B. 200 pro richtige antwort statt 100). Falsche Antworten unterbrechen die Serie und geben Abzug.
-//Nach Abschluss soll das Ergebnis in der HighScore-Liste verzeichnet werden und ein Name kann eingetragen werden.
+Gelöscht da die alte Projektidee den Vorgaben nicht entsprach.
 
 ===================================
 === Feedback Alpers, 2016-04-12 ===
