@@ -7,7 +7,7 @@ Nach Absprache (2ter Vorlesungstermin) durfte ich das Projekt zum Spiel Targi ä
 Ziel und Ablauf: 
 Bei Targi müssen zwei Karawanen durch Handel von Ressourcen (Salz, Daddeln, Pfeffer, Gold) Siegpunkte ergattern. 
 Hierbei erweitern sie ihre Karawane durch Stammeskarten, die Boni beim Spielablauf geben und Siegpunkte bringen. Der Räuber arbeitet gegen die Spieler.
-Spiel läuft über Platzierungsphase in der man im Spielfeld ausliegende Karten besetzt. Diese kann man dann in der Spielphase benutzen.
+Spiel läuft über Platzierungsphase in der man im Spielfeld ausliegende Karten besetzt. Diese kann man dann in der folgenden Spielphase benutzen.
 
 Anforderungen an das Programm:
 Das Programm soll hierbei das Spielfeld- und Figuren darstellen . 
