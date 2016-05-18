@@ -15,7 +15,7 @@ In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre
 Die aus den Platzierungen der Spielfiguren hervorgehenden Plätze der Spielmarker sollen automatisch vom System erstellt werden. 
 Während der Spielphase sollen die einzelnen Schritte in beliebiger Reihenfolge vom User durch Klicken der Figuren und Marker umgesetzt werden. 
 Folgen werden im Spiellog ausgegeben. 
-Bei unregulären Zügen wird eine Fehlermeldung gegeben.
+Bei unregulären Zügen wird eine Fehlermeldung (PopUp) gegeben.
 Zu jeder Zeit soll im Programm eine OptionsSchaltfläche benutzbar sein, über die die Anwendung gesteuert wird (Sound, Regeln, etc).
 Erreichte Siegpunkte werden in einer HighscoreListe verewigt.
 Die Größe der Kartenstapel wird im Adminbereich bestimmt. (Sind Karten leer, wird der Ablagestapel vom System gemischt)
