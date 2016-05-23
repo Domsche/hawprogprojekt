@@ -11,7 +11,8 @@ Spiel läuft über Platzierungsphase in der man im Spielfeld ausliegende Karten 
 
 Anforderungen an das Programm:
 Das Programm soll hierbei das Spielfeld- und Figuren darstellen . 
-In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren per Mausklick zu setzen. Mögliche Felder werden hervorgehoben
+In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren per Mausklick zu setzen. Mögliche Felder werden hervorgehoben.
+Reduzierte Werte (Durch Stammeskarten-Boni) werden in grünen Zahlen angezeigt, statt in schwarz.
 Die aus den Platzierungen der Spielfiguren hervorgehenden Plätze der Spielmarker sollen automatisch vom System erstellt werden. 
 Während der Spielphase sollen die einzelnen Schritte in beliebiger Reihenfolge vom User durch Klicken der Figuren und Marker umgesetzt werden. 
 Folgen werden im Spiellog ausgegeben. 
