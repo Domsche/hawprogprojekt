@@ -11,7 +11,8 @@ Spiel läuft über Platzierungsphase in der man im Spielfeld ausliegende Karten 
 
 Anforderungen an das Programm:
 Das Programm soll hierbei das Spielfeld- und Figuren darstellen . 
-In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren per Mausklick zu setzen. Mögliche Felder werden hervorgehoben.
+In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren per Mausklick zu setzen. 
+Mögliche Felder werden hervorgehoben.
 Reduzierte Werte (Durch Stammeskarten-Boni) werden hervorgegeben.
 Die aus den Platzierungen der Spielfiguren hervorgehenden Plätze der Spielmarker sollen automatisch vom System erstellt werden. 
 Während der Spielphase sollen die einzelnen Schritte in beliebiger Reihenfolge vom User durch Klicken der Figuren und Marker umgesetzt werden. 
@@ -98,3 +99,35 @@ Es gibt noch einen weiteren Kritikpunkt an Ihrer Beschreibung: Für das Projekt 
 === Zweiter Aufgabenblock (identisch für alle Studierenden) ===
 ===============================================================
 (gelöscht, da inzwischen im Lernraum verfügbar)
+
+===================================
+=== Feedback Alpers, 2016-04-12 ===
+===================================
+
+Die Zusammenfassung ist gut, da sie knapp aber verständlich zusammenfasst, worum es im Spiel geht. Allerdings klingt sie noch nach einen Brettspiel. (In einem Computerspiel nehmen Spieler keine Spielkarte vom Spielbrett.)
+
+> Das Programm soll hierbei das Spielfeld- und Figuren darstellen . 
+Dieser Satz macht so keinen Sinn für die Planung: Das Programm ist Ihre Adaption des Spiels. Und aus der Beschreibung folgt, was darzustellen ist. Und das wird mit Sicherheit mehr sein als nur Spielfeld und Figuren.
+
+> In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren per Mausklick zu setzen. 
+Machen Sie sich bitte bewusst, dass eine HTML-basierte Anwendung auf unterschiedlichen Systemen genutzt werden kann, z.B. auf Smartphones ohne Maus. Also sollte die Beschreibung nicht festlegen, womit ein Element von Spielern angewählt werden kann.
+
+> Mögliche Felder werden hervorgehoben.
+Sehr gut. Hier zeigen Sie, dass Sie tatsächlich über Möglichkeiten nachdenken, wie das Brettspiel sinnvoll als Computerspiel adaptiert werden kann. Und Sie haben es so formuliert, dass die Darstellung unabhängig von der Funktionalität entworfen werden kann.
+
+> Folgen werden im Spiellog ausgegeben. 
+Auch wenn es Ihnen vielleicht nicht bewusst ist, aber auch das ist sehr gut, weil es eben voraussetzt, dass die Züge von Spielern gespeichert werden. Und so haben Sie später Möglichkeiten, um mit den gespeicherten Daten weiterzuarbeiten.
+
+> Bei unregulären Zügen wird eine Fehlermeldung (PopUp) gegeben.
+Lassen Sie Pop-Ups vorerst außen vor, da sie diese mit den bislang besprochenen Mitteln nicht umsetzen können.
+
+Was jetzt noch fehlt ist die Interaktion mit dem Spiel. Hier ein Absatz dazu, wofür der Begriff Interaktivität in diesem Projekt steht, weil der Begriff nicht eindeutig ist: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+Momentan ist es allerdings schwierig, aus der Beschreibung direkt zu erkennen, was die strukturellen Elemente und was Funktionalitäten sind. Versuchen Sie einmal, die entsprechenden Teile der Beschreibung zu trennen.
+
+Wertung 2: Projektbeschreibung: gesamt: 5 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
