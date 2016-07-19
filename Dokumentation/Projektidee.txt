@@ -34,6 +34,7 @@ Sobald der Räuber einmal das Feld umrundet hat, oder ein Spieler die maximale A
 
 Bereiche der Seite
 
+Log-In Maske
 Startbildschirm mit Schaltflächen (Spiel starten, How To, HighscoreListe, 
 Options- und Mutebutton
 Spiellog (Textfeld und Texteingabe)
