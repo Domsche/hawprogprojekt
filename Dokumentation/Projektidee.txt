@@ -32,7 +32,7 @@ Der Zug der KI wird Etappenweise dargestellt und auch im Spiellog ausgegeben.
 Nach der Spielphase werden neue Karten ausgeteilt. Sollte der Spieler auf Hart spielen haben Ressourcenkarten, die dem Spieler gerade mangeln eine niedrigere Chance ausgeteilt zu werden. Bei Leicht bleiben die Wahrscheinlichkeiten gleich.
 Sobald der Räuber einmal das Feld umrundet hat, oder ein Spieler die maximale Anzahl Gebäude hat ist das Spiel beendet und die aktuelle Highscore-Liste wird angezeigt.
 
-Strukturelle Elemente
+Bereiche der Seite
 Startbildschirm mit Schaltflächen (Spiel starten, How To, HighscoreListe, 
 Options- und Mutebutton
 Spiellog (Textfeld und Texteingabe)
