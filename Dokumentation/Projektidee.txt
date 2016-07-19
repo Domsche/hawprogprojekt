@@ -33,6 +33,7 @@ Nach der Spielphase werden neue Karten ausgeteilt. Sollte der Spieler auf Hart s
 Sobald der Räuber einmal das Feld umrundet hat, oder ein Spieler die maximale Anzahl Gebäude hat ist das Spiel beendet und die aktuelle Highscore-Liste wird angezeigt.
 
 Bereiche der Seite
+
 Startbildschirm mit Schaltflächen (Spiel starten, How To, HighscoreListe, 
 Options- und Mutebutton
 Spiellog (Textfeld und Texteingabe)
