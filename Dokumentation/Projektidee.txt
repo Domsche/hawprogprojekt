@@ -1,3 +1,48 @@
+==============================================
+=== Projektidee Update Domsche, 2016-07-19 ===
+==============================================
+
+Nach Absprache (2ter Vorlesungstermin) durfte ich das Projekt zum Spiel Targi ändern.
+
+Idee für das Projekt ist eine digitale Umsetzung des Spiels Targi.
+Im Startmenü gibt der Spieler seinen Username ein und kann dann über nutzen verschiedener Schaltflächen in weitere Fenster gelangen
+(Start, How To, Optionen, Leaderboard)
+Der Spieler wird nachdem er ein Spiel startet nach der KI-Schwierigkeit gefragt und aktiviert die jeweilige Schaltfläche (Hard/Leicht)
+
+Ziel und Ablauf: 
+Bei Targi müssen zwei Karawanen durch Handel von Ressourcen (Salz, Daddeln, Pfeffer, Gold) Siegpunkte ergattern. 
+Hierbei erweitern sie ihre Karawane durch Stammeskarten, die Boni beim Spielablauf geben und Siegpunkte bringen. Der Räuber arbeitet gegen die Spieler und besetzt immer 1 Randfeld.
+Spiel läuft über Platzierungsphase in der man im Spielfeld ausliegende Karten vom jeweiligen Spieler besetzt werden.
+Diese kann man dann in der folgenden Spielphase benutzen.
+
+Hauptteil & Interaktivität:
+
+In der Spielanwendung wird das Spielfeld über 16 Felder dargestellt. Die mittleren 9 sind hervorgehoben zum Rand (Diese werden im Laufe des Spieles ausgetauscht).
+In welcher Phase sich der Spieler befindet wird im oberen Teil der Anwendung eingeblendet.
+Das Spiel beginnt mit der Platzierungsphase. Wer anfängt wird per Zufall entschieden. 
+In der Platzierungsphase wählt der Spieler ein Randfeld an und setzt so seinen Spielmarker.
+Bei ungültigem Spielverhalten ertönt ein Buzzerton.
+Mögliche Platzierungsfelder werden hervorgehoben.
+Sollte man durch Gebäudeboni reduzierte Kosten haben, so werden diese auch hervorgehoben.
+Die KI ist abwechselnd zum Spieler dran. Sollte Hart eingestellt worden sein, so versucht sie die Felder zu besetzen, von denen der Spieler bereits am meisten hat (Es gibt 5 Sorten von Gebäuden). Gleiches gilt für Ressourcen. 
+Bei leichter KI achtet der Computergegner nur auf seine Gebäude/Ressourcen.
+Innerhalb der Spielphase wählt der Spieler seine Marker an und setzt so die Reihenfolge seines Zuges fest.
+Alle Züge und ihre Folgen werden im Spiellog festgehalten und dargestellt.
+Der Zug der KI wird Etappenweise dargestellt und auch im Spiellog ausgegeben.
+Nach der Spielphase werden neue Karten ausgeteilt. Sollte der Spieler auf Hart spielen haben Ressourcenkarten, die dem Spieler gerade mangeln eine niedrigere Chance ausgeteilt zu werden. Bei Leicht bleiben die Wahrscheinlichkeiten gleich.
+Sobald der Räuber einmal das Feld umrundet hat, oder ein Spieler die maximale Anzahl Gebäude hat ist das Spiel beendet und die aktuelle Highscore-Liste wird angezeigt.
+
+Strukturelle Elemente
+Startbildschirm mit Schaltflächen (Spiel starten, How To, HighscoreListe, 
+Options- und Mutebutton
+Spiellog (Textfeld und Texteingabe)
+Tabelle mit eigenen Ressourcen
+Hintergrund
+Spielfeld
+Adminbereich
+
+\\Kommentar: Ich habe mich nun nach ihrem letzten Feedback für einen KI-Gegner entschieden. Ich denke mit einem KI-Gegner lassen sich bei einem Brettspiel viel mehr Interaktionen zwischem Programm und Anwender herstellen. Würde man gegen einen menschlichen Spieler spielen so könnte das Programm nur grafischer Ebene und bei der Verteilung der Karten auf die Spieler reagieren. Mir ist aber bewusst, dass dadurch die Interaktion zwischen den einzelnen Spielern lediglich durch die Highscore-Liste gegeben ist. 
+
 =======================================
 === Projektidee Domsche, 2016-05-18 ===
 =======================================
