@@ -17,7 +17,7 @@ Diese kann man dann in der folgenden Spielphase benutzen.
 
 Hauptteil & Interaktivität:
 
-In der Spielanwendung wird das Spielfeld über 16 Felder dargestellt. Die mittleren 9 sind hervorgehoben zum Rand (Diese werden im Laufe des Spieles ausgetauscht).
+In der Spielanwendung wird das Spielfeld über 16 Felder dargestellt. Die mittleren 9 sind hervorgehoben zum Rand (Diese werden im Laufe des Spieles ausgetauscht). Ein genauerer ToolTip der Karte wird bei MouseOver dargestellt. 
 In welcher Phase sich der Spieler befindet wird im oberen Teil der Anwendung eingeblendet.
 Das Spiel beginnt mit der Platzierungsphase. Wer anfängt wird per Zufall entschieden. 
 In der Platzierungsphase wählt der Spieler ein Randfeld an und setzt so seinen Spielmarker.
