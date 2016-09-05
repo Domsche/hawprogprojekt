@@ -8,6 +8,9 @@ Wäre so die Interaktivität zum individuellen User nicht gegeben?
 
 Bei weiterem Überlegen dachte ich vlt. an einen Tuniermodus. In diesem könnten Brackets erstellt werden und es können mehrere User eingeladen werden. So wäre es möglich mit den gegebenen Regeln eine Interaktion zwischen mehreren Usern zu ermöglichen.
 
+Update:
+Wären zufällige Events die eher den führenden Spieler treffen eine entsprechen Interaktion zwischen Computer und Spielern?
+
 ==============================================
 === Projektidee Update Domsche, 2016-07-19 ===
 ==============================================
