@@ -6,8 +6,12 @@ $player2score = //s. player1
 if($player1score > $player2score) 
 { echo "Spieler 1 hat gewonnen!"
 }
-else 
+else if ($player1score = $player2score)
+{ echo "Unentschieden!"
+}
+else ($player1score < $player2score)
 { echo "Spieler 2 hat gewonnen!"
+}
 
 function highscoretable()
 {
