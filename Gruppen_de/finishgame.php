@@ -1,4 +1,4 @@
-<?php>
+<?php
 
 $player1score = //wird von anderer Gruppe übergeben (oder Datenbank)
 $player2score = //s. player1
@@ -45,4 +45,4 @@ echo "</table>";
 <form>
 <input class="NewGame" type="button" value="Schließen" onclick="MainMenu.php" /> 
 
-<php>
+?>
