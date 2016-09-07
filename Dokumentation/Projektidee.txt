@@ -1,15 +1,7 @@
 ==============================================
 === Frage zum Feedback Domsche, 2016-09-05 ===
 ==============================================
-Wenn ich ihr Feedback richtig verstanden habe, wird gefordert, dass der Computer in einer laufenden Partie zwischen Spieler A und Spieler B unterschiedlich agiert?
-Innerhalb der Umsetzung ist die einzige Aufgabe bei einem Spiel zwischen 2 menschlichen Usern neue Karten auszulegen. Auf keine andere Weise kann das Programm ins laufende Spiel zweier User "eingreifen". 
-Anders ist es beim Spiel gegen die KI. Dort soll die KI Entscheidungen treffen die sich an das Spielverhalten des Users anpassen. (s. Projektidee 2016-07-19)
-Wäre so die Interaktivität zum individuellen User nicht gegeben?
-
-Bei weiterem Überlegen dachte ich vlt. an einen Tuniermodus. In diesem könnten Brackets erstellt werden und es können mehrere User eingeladen werden. So wäre es möglich mit den gegebenen Regeln eine Interaktion zwischen mehreren Usern zu ermöglichen.
-
-Update:
-Wären zufällige Events die eher den führenden Spieler treffen eine entsprechen Interaktion zwischen Computer und Spielern?
+Wurde in der Sprechstunde geklärt.
 
 ==============================================
 === Projektidee Update Domsche, 2016-07-19 ===
@@ -44,6 +36,13 @@ Alle Züge und ihre Folgen werden im Spiellog festgehalten und dargestellt.
 Der Zug der KI wird Etappenweise dargestellt und auch im Spiellog ausgegeben.
 Nach der Spielphase werden neue Karten ausgeteilt. Sollte der Spieler auf Hart spielen haben Ressourcenkarten, die dem Spieler gerade mangeln eine niedrigere Chance ausgeteilt zu werden. Bei Leicht bleiben die Wahrscheinlichkeiten gleich.
 Sobald der Räuber einmal das Feld umrundet hat, oder ein Spieler die maximale Anzahl Gebäude hat ist das Spiel beendet und die aktuelle Highscore-Liste wird angezeigt.
+
+Ergänzung:
+Die reaktion der KI soll auf alle gesammelten daten über den/die Spieler zugreifen die account weit gesammelt wurden um die Entscheidungen anzupassen.
+Zusätzlich soll die Spielfläche dynamisch generiert werden in Abhängigkeit der Spielerzahl um mehr als 2 Spieler zu ermöglichen.
+Ggbf. denke ich noch nach Events einzuarbeiten, die auch auf Grundlage der gesammelten Daten unterschiedlich in ihrer Häufigkeit/Auswirkung sind.
+
+
 
 Bereiche der Seite
 
