@@ -81,3 +81,5 @@ Passwort wiederholen:<br>
  
 </body>
 </html>
+
+<!-- Quelle: https://www.php-einfach.de/experte/php-codebeispiele/loginscript/ -->
