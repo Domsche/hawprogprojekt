@@ -3,9 +3,6 @@
  <head>
    <meta charset=utf-8>
    <title>Abrechnung</title> 
-    <p>
-     <!-- Hier wird angezeigt "Du hast gewonnen" bzw verloren. -->
-    </p>
  </head>
  <body>
   <h1>Highscores</h1>
