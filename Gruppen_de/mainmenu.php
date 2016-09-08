@@ -6,10 +6,10 @@
 
 
 <form>
-<input class="NewGame" type="button" value="Regeln" onclick="rules.php" /> 
+<input class="HowTo" type="button" value="Regeln" onclick="rules.php" /> 
 </form>
 
 
 <form>
-<input class="NewGame" type="button" value="Log Out" onclick="logout.php" /> //Diese Gruppe habe ich noch nicht erstellt, wird nachgeholt
+<input class="LogOut" type="button" value="Log Out" onclick="logout.php" /> //Diese Gruppe habe ich noch nicht erstellt, wird nachgeholt
 </form>
