@@ -2,6 +2,7 @@
 <html lang=de> 
  <head>
    <meta charset=utf-8>
+   <link rel=stylesheet href=styles.css>
    <title>Abrechnung</title> 
  </head>
  <body>
