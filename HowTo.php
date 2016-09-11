@@ -6,7 +6,7 @@
 	      	<title>Regelwerk</title>
     	</head>
 	    <body> 
-	      <img src="Images/background.jpg"> <!-- Wird Targilogo-Hintergrund-->
+	 
 	    	<header>
 	    		<h1>HowTo</h1>
 	    	</header>	
