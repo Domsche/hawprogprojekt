@@ -6,8 +6,7 @@
    <title>Abrechnung</title> 
  </head>
  <body>
-  <h1>Highscores</h1>
-   <img src="Images/background.jpg"> <!-- Wird Targilogo-Hintergrund-->
+  <h1 align="center">Highscores</h1>
     <?php include("Gruppen_de/finishgame.php") ?>
  </body>
  
