@@ -6,8 +6,10 @@
    <title>Abrechnung</title> 
  </head>
  <body>
+  <header>
+   <h1 align="center">Highscores</h1>
+  </header>
   <main>
-  <h1 align="center">Highscores</h1>
     <?php include("Gruppen_de/finishgame.php") ?>
    </main>
  </body>
