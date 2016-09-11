@@ -6,7 +6,6 @@
 		<meta charste=utf-8>
 	</head>
 	<body>
-	  <img src="Images/background.jpg"> <!-- Wird Targilogo-Hintergrund-->
 	  <main>
 	    <header>Log-In</header>
 		  <form>
