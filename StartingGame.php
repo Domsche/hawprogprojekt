@@ -3,11 +3,13 @@
 	<head>
 		<title>Neues Spiel</title>
 		<meta charste=utf-8>
+		<link rel=stylesheet href=styles.css>
 	</head>
 	<body>
-	  <img src="Images/background.jpg"> <!-- Wird Targilogo-Hintergrund-->
 	  <main>
-	    <header>Spiel Starten</header>
+	    <header>
+	    	<h1>Spiel Starten</h1>
+	    	</header>
 	    
         <p>Spielmodus:<br>
         <input type="radio" name="playmode" value="KIPlayer" checked>Computer Gegner<br>
