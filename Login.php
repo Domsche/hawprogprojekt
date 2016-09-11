@@ -1,6 +1,7 @@
 <! doctype html>
 <html lang=de>
 	<head>
+		<link rel=stylesheet href=styles.css>
 		<title>Login</title>
 		<meta charste=utf-8>
 	</head>
