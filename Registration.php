@@ -3,6 +3,7 @@
 	<head>
 		<title>Registrierung</title>
 		<meta charste=utf-8>
+		<link rel=stylesheet href=styles.css>
 	</head>
 	<body>
 	  <img src="Images/background.jpg"> <!-- Wird Targilogo-Hintergrund-->
