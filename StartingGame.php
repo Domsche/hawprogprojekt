@@ -12,8 +12,8 @@
 	    	</header>
 	    
         <p>Spielmodus:<br>
-        <input type="radio" name="playmode" value="KIPlayer" checked>Computer Gegner<br>
-        <input type="radio" name="playmode" value="2Player">Zwei Spieler<br></p>
+        <input type="button" name="playmode" value="KIPlayer" checked>Computer Gegner hinzufügen<br>
+        <input type="button" name="playmode" value="extraPlayer">Spieler hinzufügen<br></p>
         <p>
           <input type="radio" name="difficulty" value="easy" checked>Leicht<br><!-- Dieser Radio-Button ist später nur anwählbar wenn man KIPlayer gewählt hat -->
           <input type="radio" name="difficulty" value="hard">Schwer<br>
