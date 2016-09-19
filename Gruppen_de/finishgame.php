@@ -45,4 +45,12 @@ echo "</table>";
 <form>
 <input class="NewGame" type="button" value="Schließen" onclick="MainMenu.php" /> 
 
+<form action=StartingGame.php>		
+	<button>Neues Spiel?</button>			
+</form>
+
+<form action=MainMenu.php>		
+	<button>Zum Menü</button>			
+</form>
+
 ?>
