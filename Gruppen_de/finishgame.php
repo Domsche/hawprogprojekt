@@ -38,6 +38,8 @@ while ($row = mysql_fetch_array($query)) {
 echo "</table>";
 }
 
+highscoretable();
+
 <form>
 <input class="NewGame" type="button" value="Neues Spiel?" onclick="StartinGgame.php" /> //Hier wusste ich nicht wie der Pfad exakt aussehen muss am Ende
 </form>
