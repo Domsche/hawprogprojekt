@@ -20,7 +20,7 @@
           </p>
 		  <article>
 		      <form>
-		        <!-- Hier kann der zweite Spieler seinen Namen eingeben, sofern vorher 2 Spieler gewählt wurde -->
+		        <!-- Hier sollen Spieler hinzugefügt werden -->
 		      </form>
 		      <button type="submit" value="Submit">Submit</button>
 		  </article>
