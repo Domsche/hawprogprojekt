@@ -25,7 +25,7 @@ foreach  ($i = 0; $i < $playeramount; $i++) {    <!-- Schleife zum auslesen der 
 </table>
 
 for ($i = 0; $i < $playeramount; $i++) {
-  echo "$playerName[i]"                                 <!-- Grundgerüst für Gebäudekarten. Zellen werden in Typfarbe später eingefärbt -->
+  echo "$playerName[i]"                                 <!-- Grundgerüst 3x5 für Gebäudekarten. Zellen werden in Typfarbe später eingefärbt -->
   <table>
     <tr>
       <td></td>
@@ -43,8 +43,16 @@ for ($i = 0; $i < $playeramount; $i++) {
       <td></td>
     </tr>
     <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
-    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>    
+    
   </table>
  
  <!-- Elemente 66-67 Folgen! -->
