@@ -1,7 +1,7 @@
 <?php
 
 <form>
-<input class="NewGame" type="button" value="Neues Spiel" onclick="StartinGgame.php" /> //Hier wusste ich nicht wie der Pfad exakt aussehen muss am Ende
+<input class="NewGame" type="button" value="Neues Spiel" onclick="Gruppe_de/StartinGgame.php" /> 
 </form>
 
 
