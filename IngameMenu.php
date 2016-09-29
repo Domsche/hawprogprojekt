@@ -8,9 +8,7 @@
  <body>
    <main>
   <h1>Spielmenü</h1>
-    <form id=ingameoptions>
-      <!-- Hier werden die einzelnen Menüpunkte einprogrammiert -->
-    </form>
+        <?php include("Gruppen_de/ingamemenu.php") ?>
    </main>
  </body>
 </html>
