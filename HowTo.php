@@ -12,8 +12,7 @@
 	    	</header>	
   		<main>
 	  		<article>
-			        <a href="http://www.kosmos.de/_files_media/mediathek/downloads/anleitungen/1398/targi.pdf">Hier findest du die Regeln</a> <!-- Hyperlink zum offiziellen Regelheft -->
-			      	<a id=button href=MainMenu.html>Schließen</a>
+				<?php include("Gruppen_de/rules.php") ?>
 		  	</article>
 		</main>
 	</body>
