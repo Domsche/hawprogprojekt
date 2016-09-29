@@ -10,6 +10,4 @@ for ($i = 0; $i < $playeramount + 5; $i++) {
     echo '</tr>';
 }
 ?>
-
-<!--Interaktion (struk. Element 96/97 folgt) -->
 </table>
