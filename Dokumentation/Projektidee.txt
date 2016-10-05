@@ -4,21 +4,19 @@
 Wurde in der Sprechstunde geklärt.
 
 ==============================================
-=== Projektidee Update Domsche, 2016-09-07 ===
+=== Projektidee Update Domsche, 2016-10-05 ===
 ==============================================
 
 Nach Absprache (2ter Vorlesungstermin) durfte ich das Projekt zum Spiel Targi ändern.
 
 Idee für das Projekt ist eine digitale Umsetzung des Spiels Targi.
-Im Startmenü gibt der Spieler seinen Username ein und kann dann über nutzen verschiedener Schaltflächen in weitere Fenster gelangen
-(Start, How To, Optionen, Leaderboard)
-Der Spieler wird nachdem er ein Spiel startet nach einem 2ten menschlichen Mitspieler oder einer KI(Hart/Leicht) gefragt. Bestätigung über Schaltflächen.
 
 Ziel und Ablauf: 
 Bei Targi müssen zwei Karawanen durch Handel von Ressourcen (Salz, Daddeln, Pfeffer, Gold) Siegpunkte ergattern. 
 Hierbei erweitern sie ihre Karawane durch Stammeskarten, die Boni beim Spielablauf geben und Siegpunkte bringen. Der Räuber arbeitet gegen die Spieler und besetzt immer 1 Randfeld.
-Spiel läuft über Platzierungsphase in der man im Spielfeld ausliegende Karten vom jeweiligen Spieler besetzt werden.
-Diese kann man dann in der folgenden Spielphase benutzen.
+Spielverlauf in 2 Phasen:
+Platzierungsphase: Felder werden "besetzt"
+Spielphase: besetzte Felder werden ausgeführt (Reihenfolge festgelegt durch Spieler selbst)
 
 Hauptteil & Interaktivität:
 
@@ -28,10 +26,9 @@ Das Spiel beginnt mit der Platzierungsphase. Wer anfängt wird per Zufall entsch
 In der Platzierungsphase wählt der Spieler ein Randfeld an und setzt so seinen Spielmarker.
 Bei ungültigem Spielverhalten ertönt ein Buzzerton.
 Mögliche Platzierungsfelder werden hervorgehoben.
-Sollte man durch Gebäudeboni reduzierte Kosten haben, so werden diese auch hervorgehoben.
-Die KI/2ter Player ist abwechselnd zum Spieler dran. Sollte Hart eingestellt worden sein, so versucht die KI die Felder zu besetzen, von denen der Spieler bereits am meisten hat (Es gibt 5 Sorten von Gebäuden). Gleiches gilt für Ressourcen. 
+Spieler handeln nacheinander. Sollte Hart eingestellt worden sein, so versucht die KI die Felder zu besetzen, von denen der Spieler bereits am meisten hat (Es gibt 5 Sorten von Gebäuden). Gleiches gilt für Ressourcen. 
 Bei leichter KI achtet der Computergegner nur auf seine Gebäude/Ressourcen.
-Innerhalb der Spielphase wählt der Spieler seine Marker an und setzt so die Reihenfolge seines Zuges fest.
+Innerhalb der Spielphase wählt der Spieler seine Marker aus und setzt so die Reihenfolge seines Zuges fest.
 Alle Züge und ihre Folgen werden im Spiellog festgehalten und dargestellt.
 Der Zug der KI wird Etappenweise dargestellt und auch im Spiellog ausgegeben.
 Nach der Spielphase werden neue Karten ausgeteilt. Sollte der Spieler auf Hart spielen haben Ressourcenkarten, die dem Spieler gerade mangeln eine niedrigere Chance ausgeteilt zu werden. Bei Leicht bleiben die Wahrscheinlichkeiten gleich.
@@ -41,20 +38,6 @@ Ergänzung:
 Die reaktion der KI soll auf alle gesammelten daten über den/die Spieler zugreifen die account weit gesammelt wurden um die Entscheidungen anzupassen.
 Zusätzlich soll die Spielfläche dynamisch generiert werden in Abhängigkeit der Spielerzahl um mehr als 2 Spieler zu ermöglichen.
 Ggbf. denke ich noch nach Events einzuarbeiten, die auch auf Grundlage der gesammelten Daten unterschiedlich in ihrer Häufigkeit/Auswirkung sind.
-
-
-
-Bereiche der Seite
-
-Log-In Maske
-Startbildschirm mit Schaltflächen (Spiel starten, How To, HighscoreListe, 
-Options- und Mutebutton
-Spiellog (Textfeld und Texteingabe)
-Tabelle mit eigenen Ressourcen
-Hintergrund
-Spielfeld
-Adminbereich
-
 
 =======================================
 === Projektidee Domsche, 2016-05-18 ===
