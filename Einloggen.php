@@ -9,10 +9,12 @@
 	  <main>
 	    <header>Log-In</header>
 		  <form>
-		  <!-- Hier kann der User seine Login-Daten eingeben -->
+		  <?php include("Gruppen_de/login.php") ?>
 		  </form>
 		  <article>
-		    <!-- Hier kommt der User zur Neuregistrierung -->
+		   	<form action=Gruppen_de/registration.php>
+				<button>Neu Registrieren</button>				
+			</form>
 		  </article>
 		</main>
 	</body>
