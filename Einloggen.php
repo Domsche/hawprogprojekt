@@ -11,11 +11,6 @@
 		  <form>
 		  <?php include("Gruppen_de/login.php") ?>
 		  </form>
-		  <article>
-		   	<form action=Gruppen_de/registration.php>
-				<button>Neu Registrieren</button>				
-			</form>
-		  </article>
 		</main>
 	</body>
 </html>
