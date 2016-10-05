@@ -10,7 +10,7 @@
 	    <header>
 	    	<h1>Spiel Starten</h1>
 	    	</header>
-	    
+	    <!-- Noch nicht identisch zu strukt.html -->
         <p>Spielmodus:<br>
         <input type="button" name="playmode" value="KIPlayer" checked>Computer Gegner hinzufügen<br>
         <input type="button" name="playmode" value="extraPlayer">Spieler hinzufügen<br></p>
