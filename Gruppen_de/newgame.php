@@ -5,9 +5,9 @@ $db_connection = mysqli_connect(„localhost“, „root“, „“ , „startga
   <fieldset>
  <label for="newplayer">Neuer Spieler:</label> 
  <input type="text" id="newplayer" size="30" maxlength="30" value="Name"> <br>
-    <input type="enemytype" id="spieler" name="Gegnertyp" value="spieler"><br>
+    <input type="enemytype" id="spieler" name="Gegnertyp" value="spieler">
     <label for="spieler"> Spieler</label><br> <br>
-    <input type="enemytype" id="ki" name="Gegnertyp" value="ki"><br>
+    <input type="enemytype" id="ki" name="Gegnertyp" value="ki">
     <label for="ki"> KI-Gegner</label><br> <br>
  </fieldset>
 </form>
