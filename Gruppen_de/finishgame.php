@@ -1,5 +1,10 @@
 <?php
 
+session_start();
+if(!isset($_SESSION['userid'])) {
+die('Bitte zuerst <a href="login.php">einloggen</a>');
+}
+
 $player1score = //wird von anderer Gruppe übergeben (oder Datenbank)
 $player2score = //s. player1
 
