@@ -6,7 +6,7 @@
     <!-- Quelle: https://www.php-einfach.de/experte/php-codebeispiele/loginscript/ -->
     
 session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=TargiUsers', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=targi', 'root', '');
  
 if(isset($_GET['login'])) {
 	$email = $_POST['email'];
