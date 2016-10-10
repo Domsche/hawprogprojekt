@@ -1,16 +1,12 @@
 <?php
 
   <form action=Gruppen_de/registration.php>
-				<button>Neu Registrieren</button>				
-	</form>
-    ?>
-
+	<button>Neu Registrieren</button>				
+  </form>
     <!-- Quelle: https://www.php-einfach.de/experte/php-codebeispiele/loginscript/ -->
-  
-<?php 
     
 session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=php-einfach', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=TargiUsers', 'root', '');
  
 if(isset($_GET['login'])) {
 	$email = $_POST['email'];
