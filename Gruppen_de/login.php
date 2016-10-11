@@ -1,52 +1,19 @@
 <?php
-
-  <form action=Gruppen_de/registration.php>
-	<button>Neu Registrieren</button>				
-  </form>
-    <!-- Quelle: https://www.php-einfach.de/experte/php-codebeispiele/loginscript/ -->
-    
-session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=targi', 'root', '');
- 
-if(isset($_GET['login'])) {
-	$email = $_POST['email'];
-	$passwort = $_POST['passwort'];
-	
-	$statement = $pdo->prepare("SELECT * FROM users WHERE email = :email");
-	$result = $statement->execute(array('email' => $email));
-	$user = $statement->fetch();
+<form action= /Formulare/form_eval_login.php method=POST>
+	<fieldset>
+		<legend>Bitte fülle die Log-In Felder aus</legend>
+		<label for=account>Benutzername:</label>
+		<input type=text id=account name=Benutzername required>
 		
-	//Überprüfung des Passworts
-	if ($user !== false && password_verify($passwort, $user['passwort'])) {
-		$_SESSION['userid'] = $user['id'];
-		die('Login erfolgreich. Weiter zum <a href="mainmenu.php">Hauptmenü</a>');
-	} else {
-		$errorMessage = "E-Mail oder Passwort war ungültig<br>";
-	}
-	
-}
-?>
-<!DOCTYPE html> 
-<html> 
-<head>
-  <title>Login</title>	
-</head> 
-<body>
+		<label for=passwort>Passwort:</label>
+		<input type=password id=passwort name=passwort required></p>
+		
+	</fieldset>	
+		<label for=login>Einloggen</label>
+		<input type=submit id=login>
+</form>
+</form>
+  <form action=Gruppen_de/registration.php>
+  	<button>Neu Registrieren</button>				
+  </form>
  
-<?php 
-if(isset($errorMessage)) {
-	echo $errorMessage;
-}
-?>
- 
-<form action="?login=1" method="post">
-E-Mail:<br>
-<input type="email" size="40" maxlength="250" name="email"><br><br>
- 
-Dein Passwort:<br>
-<input type="password" size="40"  maxlength="250" name="passwort"><br>
- 
-<input type="submit" value="Abschicken">
-</form> 
-</body>
-</html> 
