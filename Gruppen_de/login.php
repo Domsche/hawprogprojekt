@@ -1,4 +1,3 @@
-<?php
 <form action= /Formulare/form_eval_login.php method=POST>
 	<fieldset>
 		<legend>Bitte fülle die Log-In Felder aus</legend>
@@ -16,5 +15,4 @@
   <form action=Gruppen_de/registration.php>
   	<button>Neu Registrieren</button>				
   </form>
->
  
