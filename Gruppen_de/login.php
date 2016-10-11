@@ -16,4 +16,5 @@
   <form action=Gruppen_de/registration.php>
   	<button>Neu Registrieren</button>				
   </form>
+>
  
