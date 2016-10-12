@@ -21,8 +21,8 @@
 	
 	<label for=submit>Abschicken</label>
 	<input type=submit id=submit>
-	
-	<form action=Login.php>		
-	<button>Zurück zum Login</button>			
-</form>
 </form>		
+	
+<form action=Login.php>		
+	<button>Zurück zum Login</button>
+</form>
