@@ -11,7 +11,7 @@ $db_connection = mysqli_connect(„localhost“, „root“, „“ , „startga
     <label for="ki"> KI-Gegner</label><br> <br>
  </fieldset>
 </form>
-   <!-- Das Formular soll später mit Javascript so verarbeitet werden, dass ein neues Eingabefeld erscheint -->
+   <!-- Das Formular soll später ein neues Eingabefeld erzeugen -->
      
      <form>
     <input type="radio" name="difficulty" value="easy" checked>Leicht<br><!-- Dieser Radio-Button ist später nur anwählbar wenn man KIPlayer gewählt hat -->
