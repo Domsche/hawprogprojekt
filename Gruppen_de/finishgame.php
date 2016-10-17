@@ -4,19 +4,12 @@ session_start();
 if(!isset($_SESSION['userid'])) {
 die('Bitte zuerst <a href="login.php">einloggen</a>');
 }
-
-$player1score = //wird von anderer Gruppe übergeben (oder Datenbank)
-$player2score = //s. player1
-
-if($player1score > $player2score) 
-{ echo "Spieler 1 hat gewonnen!"
-}
-else if ($player1score = $player2score)
-{ echo "Unentschieden!"
-}
-else ($player1score < $player2score)
-{ echo "Spieler 2 hat gewonnen!"
-}
+?>
+	
+<?php
+$array_playerscore <!-- Wird aus Datenbank übergeben -->
+arsort($array_playerscore);
+    echo  "{$array_playerscore[0]} hat das Spiel gewonnen!"
 
 function highscoretable()
 {
@@ -44,6 +37,7 @@ echo "</table>";
 }
 
 highscoretable();
+?>
 
 <form>
 <input class="NewGame" type="button" value="Neues Spiel?" onclick="StartinGgame.php" /> //Hier wusste ich nicht wie der Pfad exakt aussehen muss am Ende
@@ -60,4 +54,3 @@ highscoretable();
 	<button>Zum Menü</button>			
 </form>
 
-?>
