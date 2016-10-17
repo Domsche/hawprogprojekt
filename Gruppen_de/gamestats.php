@@ -54,6 +54,6 @@ for ($i = 0; $i < $playeramount; $i++) {
     </tr>    
     
   </table>
- 
+ ?>
  <!-- Elemente 66-67 Folgen! -->
   
