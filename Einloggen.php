@@ -7,10 +7,13 @@
 	</head>
 	<body>
 	  <main>
-	    <header>Log-In</header>
-		  <form>
-		  <?php include("Gruppen_de/login.php") ?>
-		  </form>
-		</main>
+		<header>Log-In</header>
+			<?php include("Gruppen_de/login.php") ?>	
+		  
+		<footer>
+    			<?php include("Gruppen_de/rules.php") ?>
+		</footer>
+    	  
+	</main>
 	</body>
 </html>
