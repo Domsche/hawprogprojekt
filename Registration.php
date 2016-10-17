@@ -8,8 +8,14 @@
 	<body>
 	  <img src="Images/background.jpg"> <!-- Wird Targilogo-Hintergrund-->
 	  <main>
-	    <header>Registrierung</header>
-		 <?php include("Gruppen_de/registration.php") ?>
+	    	<header>Registrierung</header>
+			<?php include("Gruppen_de/registration.php") ?>
+		  
+		  
+		<footer>
+    			<?php include("Gruppen_de/rules.php") ?>
+	    	</footer>
+    
 		</main>
 	</body>
 </html>
