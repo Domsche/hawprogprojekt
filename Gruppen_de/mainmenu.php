@@ -1,5 +1,3 @@
-<?php
-
 <form>
 <input class="NewGame" type="button" value="Neues Spiel" onclick="Gruppe_de/StartinGgame.php" /> 
 </form>
