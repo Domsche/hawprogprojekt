@@ -1,6 +1,8 @@
 <?php
  
 $db_connection = mysqli_connect(„localhost“, „root“, „“ , „startgame“);
+
+?>
 <form>
   <fieldset>
  <label for="newplayer">Neuer Spieler:</label> 
@@ -22,4 +24,4 @@ $db_connection = mysqli_connect(„localhost“, „root“, „“ , „startga
     <input class="StartGame" type="button" value="Starten" onclick="Gruppe_de/field.php" /> 
     </form>
    
->
+
