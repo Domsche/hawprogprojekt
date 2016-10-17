@@ -14,7 +14,10 @@
 	  <?php include("Gruppen_de/gamestats.php") ?>
 	  <?php include("Gruppen_de/cards.php") ?>
 	  <?php include("Gruppen_de/field.php") ?>
-	
+		  
+		<footer>
+		<?php include("Gruppen_de/rules.php") ?>
+		</footer>
          </main>
 	</body>
 </html>
