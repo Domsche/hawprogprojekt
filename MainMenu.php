@@ -6,10 +6,15 @@
  </head>
  <body>
    <main>
-  <h1>Mainmenu</h1>
-    <form id=mainmenu>
-      <!-- Hier werden die einzelnen Menüpunkte eingepflegt -->
-    </form>
+    <header>
+    <h1>Mainmenu</h1>
+    </header>
+    <?php include("Gruppen_de/mainmenu.php") ?>
+    
+    		<footer>
+    		<?php include("Gruppen_de/rules.php") ?>
+	    	</footer>
+    
    </main>
  </body>
 </html>
