@@ -11,7 +11,7 @@
 			<?php include("Gruppen_de/einloggen.php") ?>	
 		  
 		<footer>
-    			<?php include("Gruppen_de/rules.php") ?>
+    			<?php include("Gruppen_de/regeln.php") ?>
 		</footer>
     	  
 	</main>
