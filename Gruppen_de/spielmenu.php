@@ -4,6 +4,6 @@
 </form>
   
 <form action=Gruppen_de/MainMenu.php>
-				<button>Spiel Beenden</button>	
+		<button>Spiel Beenden</button>	
 </form>
 
