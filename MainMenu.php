@@ -9,7 +9,7 @@
     <header>
     <h1>Mainmenu</h1>
     </header>
-    <?php include("Gruppen_de/mainmenu.php") ?>
+    <?php include("Gruppen_de/hauptmenu.php") ?>
     
     		<footer>
     		<?php include("Gruppen_de/rules.php") ?>
