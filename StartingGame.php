@@ -11,8 +11,8 @@
 	    	<h1>Spiel Starten</h1>
 	    	</header>
 		  
-		 <?php include("Gruppen_de/newgame.php") ?>
-	  	 <?php include("Gruppen_de/tournament.php") ?>
+		 <?php include("Gruppen_de/neuesspiel.php") ?>
+	  	 <?php include("Gruppen_de/tunier.php") ?>
 		</main>
 		
 	</body>
