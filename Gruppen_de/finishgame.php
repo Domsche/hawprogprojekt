@@ -1,16 +1,19 @@
 <?php
 
+<!-- Erster versuch vom Umsetzen des Login-Bereichs -->
 session_start();
 if(!isset($_SESSION['userid'])) {
 die('Bitte zuerst <a href="login.php">einloggen</a>');
 }
 ?>
-	
+
+
 <?php
 $array_playerscore <!-- Wird aus Datenbank übergeben -->
 arsort($array_playerscore);
-    echo  "{$array_playerscore[0]} hat das Spiel gewonnen!"
+    echo  "{$array_playerscore[0]} hat das Spiel gewonnen!";
 
+<!-- Generierung der Highscore-Tabelle mit Datenbank query -->
 function highscoretable()
 {
   echo "
@@ -39,18 +42,12 @@ echo "</table>";
 highscoretable();
 ?>
 
-<form>
-<input class="NewGame" type="button" value="Neues Spiel?" onclick="StartinGgame.php" /> //Hier wusste ich nicht wie der Pfad exakt aussehen muss am Ende
-</form>
-
-<form>
-<input class="NewGame" type="button" value="Schließen" onclick="MainMenu.php" /> 
-
-<form action=StartingGame.php>		
+<!-- Buttons zur Weiterführung in ein neues Spiel oder ins Menü -->	
+<form action=startinggame.php>		
 	<button>Neues Spiel?</button>			
 </form>
 
-<form action=MainMenu.php>		
-	<button>Zum Menü</button>			
+<form action=mainmenu.php>		
+	<button>Bestätigen</button>			
 </form>
 
