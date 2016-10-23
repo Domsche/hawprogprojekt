@@ -8,7 +8,7 @@
 	<body>
 	  <main>
 		<header>Log-In</header>
-			<?php include("Gruppen_de/login.php") ?>	
+			<?php include("Gruppen_de/einloggen.php") ?>	
 		  
 		<footer>
     			<?php include("Gruppen_de/rules.php") ?>
