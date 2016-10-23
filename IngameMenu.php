@@ -8,7 +8,7 @@
  <body>
    <main>
   <h1>Spielmenü</h1>
-        <?php include("Gruppen_de/ingamemenu.php") ?>
+        <?php include("Gruppen_de/spielmenu.php") ?>
    </main>
  </body>
 </html>
