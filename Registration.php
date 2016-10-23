@@ -9,11 +9,11 @@
 	  <img src="Images/background.jpg"> <!-- Wird Targilogo-Hintergrund-->
 	  <main>
 	    	<header>Registrierung</header>
-			<?php include("Gruppen_de/registration.php") ?>
+			<?php include("Gruppen_de/anmeldung.php") ?>
 		  
 		  
 		<footer>
-    			<?php include("Gruppen_de/rules.php") ?>
+    			<?php include("Gruppen_de/regeln.php") ?>
 	    	</footer>
     
 		</main>
