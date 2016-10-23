@@ -1,13 +1,13 @@
+<form action=startinggame.php>		
+	<button>Neues Spiel</button>			
+</form>
+
+<form action=LogOut>
+          //Diese Ansicht habe ich noch nicht erstellt, wird nachgeholt
+</form>
+
 <form>
-<input class="NewGame" type="button" value="Neues Spiel" onclick="Gruppe_de/StartinGgame.php" /> 
+  <input type="checkbox" name="ton" value="an"> Ton an/aus<br>
 </form>
 
 
-<form>
-<input class="HowTo" type="button" value="Regeln" onclick="rules.php" /> 
-</form>
-
-
-<form>
-<input class="LogOut" type="button" value="Log Out" onclick="logout.php" /> //Diese Gruppe habe ich noch nicht erstellt, wird nachgeholt
-</form>
