@@ -20,8 +20,7 @@ $db_connection = mysqli_connect(„localhost“, „root“, „“ , „startga
     <input type="radio" name="difficulty" value="hard">Schwer<br>
      </form>
      
-    <form>
-    <input class="StartGame" type="button" value="Starten" onclick="Gruppe_de/field.php" /> 
-    </form>
-   
+  <form action=playingsurface.php>
+  	<button>Spiel Starten</button>				
+  </form>
 
