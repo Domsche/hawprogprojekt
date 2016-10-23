@@ -12,7 +12,7 @@
     <?php include("Gruppen_de/hauptmenu.php") ?>
     
     		<footer>
-    		<?php include("Gruppen_de/rules.php") ?>
+    		<?php include("Gruppen_de/regeln.php") ?>
 	    	</footer>
     
    </main>
