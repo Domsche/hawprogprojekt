@@ -1,10 +1,5 @@
 ==============================================
-=== Frage zum Feedback Domsche, 2016-09-05 ===
-==============================================
-Wurde in der Sprechstunde geklärt.
-
-==============================================
-=== Projektidee Update Domsche, 2016-10-05 ===
+=== Projektidee Update Domsche, 2016-10-25 ===
 ==============================================
 
 Nach Absprache (2ter Vorlesungstermin) durfte ich das Projekt zum Spiel Targi ändern.
@@ -20,59 +15,24 @@ Spielphase: besetzte Felder werden ausgeführt (Reihenfolge festgelegt durch Spi
 
 Hauptteil & Interaktivität:
 
-In der Spielanwendung wird das Spielfeld über 16 Felder dargestellt. Die mittleren 9 sind hervorgehoben zum Rand (Diese werden im Laufe des Spieles ausgetauscht). Ein genauerer ToolTip der Karte wird bei MouseOver dargestellt. 
+Spielfeld besteht aus 16 Feldern (bei 2 Spielern). 
+Die mittleren 9 sind hervorgehoben zum Rand (Diese werden im Laufe des Spieles ausgetauscht). 
 In welcher Phase sich der Spieler befindet wird im oberen Teil der Anwendung eingeblendet.
-Das Spiel beginnt mit der Platzierungsphase. Wer anfängt wird per Zufall entschieden. 
-In der Platzierungsphase wählt der Spieler ein Randfeld an und setzt so seinen Spielmarker.
-Bei ungültigem Spielverhalten ertönt ein Buzzerton.
+Das Spiel beginnt mit der Platzierungsphase.
 Mögliche Platzierungsfelder werden hervorgehoben.
-Spieler handeln nacheinander. Sollte Hart eingestellt worden sein, so versucht die KI die Felder zu besetzen, von denen der Spieler bereits am meisten hat (Es gibt 5 Sorten von Gebäuden). Gleiches gilt für Ressourcen. 
+Spieler handeln nacheinander. 
+Sollte Hart eingestellt worden sein, so versucht die KI die Felder zu besetzen, von denen der Spieler bereits am meisten hat (Es gibt 5 Sorten von Gebäuden). Gleiches gilt für Ressourcen. 
 Bei leichter KI achtet der Computergegner nur auf seine Gebäude/Ressourcen.
 Innerhalb der Spielphase wählt der Spieler seine Marker aus und setzt so die Reihenfolge seines Zuges fest.
 Alle Züge und ihre Folgen werden im Spiellog festgehalten und dargestellt.
 Der Zug der KI wird Etappenweise dargestellt und auch im Spiellog ausgegeben.
-Nach der Spielphase werden neue Karten ausgeteilt. Sollte der Spieler auf Hart spielen haben Ressourcenkarten, die dem Spieler gerade mangeln eine niedrigere Chance ausgeteilt zu werden. Bei Leicht bleiben die Wahrscheinlichkeiten gleich.
-Sobald der Räuber einmal das Feld umrundet hat, oder ein Spieler die maximale Anzahl Gebäude hat ist das Spiel beendet und die aktuelle Highscore-Liste wird angezeigt.
+Sollte der Spieler auf Hart spielen haben Ressourcenkarten, die dem Spieler gerade mangeln eine niedrigere Chance ausgeteilt zu werden. Bei Leicht bleiben die Wahrscheinlichkeiten gleich.
+Räuberfigur umrundet das Spielfeld (nach Umrundung Spielende)
 
 Ergänzung:
 Die reaktion der KI soll auf alle gesammelten daten über den/die Spieler zugreifen die account weit gesammelt wurden um die Entscheidungen anzupassen.
 Zusätzlich soll die Spielfläche dynamisch generiert werden in Abhängigkeit der Spielerzahl um mehr als 2 Spieler zu ermöglichen.
-Ggbf. denke ich noch nach Events einzuarbeiten, die auch auf Grundlage der gesammelten Daten unterschiedlich in ihrer Häufigkeit/Auswirkung sind.
-
-=======================================
-=== Projektidee Domsche, 2016-05-18 ===
-=======================================
-
-Nach Absprache (2ter Vorlesungstermin) durfte ich das Projekt zum Spiel Targi ändern.
-
-Ziel und Ablauf: 
-Bei Targi müssen zwei Karawanen durch Handel von Ressourcen (Salz, Daddeln, Pfeffer, Gold) Siegpunkte ergattern. 
-Hierbei erweitern sie ihre Karawane durch Stammeskarten, die Boni beim Spielablauf geben und Siegpunkte bringen. Der Räuber arbeitet gegen die Spieler.
-Spiel läuft über Platzierungsphase in der man im Spielfeld ausliegende Karten besetzt. Diese kann man dann in der folgenden Spielphase benutzen.
-
-Anforderungen an das Programm:
-Das Programm soll hierbei das Spielfeld- und Figuren darstellen . 
-In der Platzierungsphase sollen die User in der Lage sein auf dem Spielfeld ihre Spielfiguren per Mausklick zu setzen. 
-Mögliche Felder werden hervorgehoben.
-Reduzierte Werte (Durch Stammeskarten-Boni) werden hervorgegeben.
-Die aus den Platzierungen der Spielfiguren hervorgehenden Plätze der Spielmarker sollen automatisch vom System erstellt werden. 
-Während der Spielphase sollen die einzelnen Schritte in beliebiger Reihenfolge vom User durch Klicken der Figuren und Marker umgesetzt werden. 
-Folgen werden im Spiellog ausgegeben. 
-Bei unregulären Zügen wird eine Fehlermeldung (PopUp) gegeben.
-Zu jeder Zeit soll im Programm eine OptionsSchaltfläche benutzbar sein, über die die Anwendung gesteuert wird (Sound, Regeln, etc).
-Erreichte Siegpunkte werden in einer HighscoreListe verewigt.
-Die Größe der Kartenstapel wird im Adminbereich bestimmt. (Sind Karten leer, wird der Ablagestapel vom System gemischt)
-
-Aufbau der Seite:
-Im Hauptpart der Seite (zentriert im Bildschirm, extra Fenster) befindet sich die Anwendung. 
-Im Hintergrund wird das Spiellogo gelegt sein und Banner platziert. 
-Zusätzlich soll das Spiellog auch als Chatlog dienen (Rechter Rand). 
-Eine Tabelle gibt Übersicht zu Spielerinventar (überhalb des Spiellogs)
-Accounterstellung und Login bei Start der Anwendung. 
-Adminlogin ist seperat auf der Seite verbaut. 
-Webbanner als Link zu Facebookpage.
-Regeln können über einen Link geöffnet werden (entweder Downloadlink PDF oder link auf eine weitere Seite, wo die Regeln stehen).
-Zusätzlich läuft noch Hintergrnudmusik die abstellbar ist. 
+Zufällige Events beeinflussen den Spielverlauf, die auch auf Grundlage der gesammelten Daten unterschiedlich in ihrer Häufigkeit/Auswirkung sind.
 
 ===================================
 === Feedback Alpers, 2016-05-11 ===
