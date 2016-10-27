@@ -8,7 +8,7 @@ Update 27.10.2016
 
 	-01- Textfeld, "Benutzername:" / Eingabe Benutzername
 	-02- Textfeld, "Passwort:" / Eingabe Passwort
-	-03- Schaltfläche / Log In
+	-03- 
 	-04- Schaltfläche, Checkbox  / Ton an&aus
 	-05- Schaltfläche, Button / Hauptmenü öffnen
 	-06- Schaltfläche, Button / How To
@@ -48,31 +48,30 @@ Update 27.10.2016
 	-64- 
 	-65- Absatz / Ausgabe des Spiellogs
 	-66- Textfeld / Eingabe Chat
-	-67- Schaltfläche, Option / Sende Nachricht
+	-67- 
 	-68- Schaltfläche, Button / Link zur Neuregistrierung
 	-69- 
-	-70- Textfeld / Email-Adresse eingeben
+	-70- Input, Email / Email-Adresse eingeben
 	-71- 
 	-72- Textfeld / Passwort wiederholen
 	-73- 
 	-74- 
 	-75-
 	-76- 
-	-78- Formular
+	-78- Formular-Container
 	-79- Schalftläche, Button / Log-Out
 	-80- Link / Link zum Regelpdf
-	-81- Schaltfläche, Option / Neues Spiel?
 	-82- Bild / Zahnrad (für Optionen)
 	-83- Schaltfläche (Button) / Link zum Login
 	-84- Absatz / Du hast gewonnen!
-	-85- Absatz / Du hast verloren!
+	-85- 
 	-86- Button / User hinzufügen
 	-87- Textfeld /Mitspieler-Account eingeben
 	-88- Schaltfläche (Button) / Shuffeln der Begegnungen
-	-89- Schaltfläche, Option / Tunier erstellen
+	-89- Schaltfläche, Button / Tunier erstellen
 	-90- Absatz / Name des Spiele-Autors
-	-91- Input Type - Submit, Einloggen / Formular abschicken
-
+	-91- Input - Submit / Formular abschicken
+	-92- Input - Button / Zum Spielfeld
 	
 ========================================	
 ==== Gruppen struktureller Elemente ====
@@ -82,10 +81,10 @@ Update 27.10.2016
 	I. Einloggen
 	=========
 	-68- Schaltfläche, Button / Link zur Neuregistrierung
-	-78- Formular
+	-78- Formular-Container
 		-01- Textfeld, "Benutzername:" / Eingabe Benutzername
 		-02- Textfeld, "Passwort:" / Eingabe Passwort
-		-91- Input Type - Submit, "Einloggen" / Formular abschicken
+		-91- Input - Submit / Formular abschicken
 	
 	
 	=========
@@ -93,7 +92,9 @@ Update 27.10.2016
 	=========
 	-11- Schaltfläche, Button / Neues Spiel starten
 	-79- Schalftläche, Button / Log-Out
-	-04- Schaltfläche, Checkbox / Ton an&aus
+	-78- Formular-Container
+		-04- Schaltfläche, Checkbox / Ton an&aus
+		-91- Input - Submit / Formular abschicken
 	
 	=========
 	(III. Neues Spiel starten)
@@ -109,18 +110,20 @@ Update 27.10.2016
 	=========
 	V. Navigation
 	=========
-	-04- Schaltfläche, Checkbox / Ton an&aus
+	-78- Formular-Container
+		-04- Schaltfläche, Checkbox / Ton an&aus
+		-91- Input Type - Submit / Formular abschicken
 	-05- Schaltfläche, Button / Hauptmenü öffnen
 	
 	=========
 	VI. SpielStats
 	=========
-	-26- Tabelle 3x3 / Ressourcen Spieler 1
-	-27- Tabelle 3x3 / Ressourcen Spieler 2
+	-26- Tabellen 4x3 / Ressourcen der Spieler Spieler 
 	-28- Tabelle 3x5 / Rahmen für Gebäudekarten (bei Spielern)
 	-65- Absatz / Ausgabe des Spiellogs
-	-66- Textfeld / Eingabe Chat
-	-67- Schaltfläche, Option / Sende Nachricht
+	-78- Formular-Container
+	-66- Input, Textfeld / Eingabe Chat
+	-91- Input - Submit / Formular abschicken
 	
 	=========
 	VII. Cards
@@ -140,30 +143,33 @@ Update 27.10.2016
 	IX. Abrechnung
 	=========
 	-39- Liste / geordnete HighScore-Liste, höchste Punkteanzahl zuerst
-	-75- Schaltfläche, Button / Bestätigen Button
-	-81- Schaltfläche, Button / Neues Spiel?
-	-84- Absatz / Du hast gewonnen!
-	-85- Absatz / Du hast verloren!
+	-05- Schaltfläche, Button / Hauptmenü öffnen
+	-11- Schaltfläche, Button / Neues Spiel starten
+	-84- Absatz / Spieler XXX hat gewonnen!
 	
 	=========
 	X. NeuesSpiel
 	=========
-	-12- Schaltfläche, Button  / lokalen Spieler hinzufügen (bis zu 4)
-	-31- Textfeld, Eingabe / Name des Spielers
-	-13- Schaltfläche, Button / KI-Gegner hinzufügen 
+	-78- Formular-Container
+	-31- Textfeld, Eingabe "Newplayer" / Name des Spielers
+	-12- Schaltfläche, Checkbox, "Spieler"  / lokalen Spieler hinzufügen
+	-13- Schaltfläche, Checkbox, "KI" / KI-Gegner hinzufügen
+	-91- Input - Submit / Formular abschicken
 	-14- Schaltfläche, Radio Button / Schwierigkeit hart
 	-15- Schaltfläche, Radio Button / Schwierigkeit leicht
-	-75- Schaltfläche, Button / Bestätigen Button
+	-92- Input - Button / Zum Spielfeld
 	
 	=========
 	XI. Anmeldung
 	=========
-	-01- Textfeld, "Benutzername:" / Eingabe Benutzername
-	-02- Textfeld, "Passwort:" / Eingabe Passwort
-	-70- Textfeld / Email-Adresse eingeben
-	-72- Textfeld / Passwort wiederholen
-	-83- Schaltfläche / Link zum Login
-	-75- Schaltfläche, Button / Bestätigen Button
+	-78- Formular-Container
+		-01- Textfeld, "Benutzername:" / Eingabe Benutzername
+		-02- Textfeld, "Passwort:" / Eingabe Passwort
+		-70- Input, Email / Email-Adresse eingeben
+		-72- Textfeld / Passwort wiederholen
+		-91- Input - Submit, "Submit" / Formular abschicken
+	-83- Schaltfläche, Button / Link zum Login
+	
 	
 	=========
 	XII. SpielMenu
