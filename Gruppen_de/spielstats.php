@@ -63,9 +63,9 @@ for ($i = 0; $i < $playeramount; $i++) {
 $actionmessage[]; <!-- wird aus Datenbank übergeben -->
 $chatmessage[];
 <form>
-		<label for=chat>Message:</label>
-		<input type=textarea name=chatmessage id=chat>
-    <button name="absenden">Senden</button>
+	<label for=chat>Message:</label>
+	<input type=textarea name=chatmessage id=chat>
+  	<input type="submit" value="Submit">Abschicken<br>
 </form>
 <?php
    <!-- Hier würde würde eine Php-Funktion das chatmessage array über eine echo-Schleife ausgeben, hierfür benötige ich nach Recherche ajax.php (wegen serverseitig / clientseitiger Buttonclick).
