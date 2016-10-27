@@ -1,15 +1,7 @@
 <?php
-
-<!-- Erster versuch vom Umsetzen des Login-Bereichs -->
-session_start();
-if(!isset($_SESSION['userid'])) {
-die('Bitte zuerst <a href="login.php">einloggen</a>');
-}
-?>
-
-
-<?php
-$array_playerscore <!-- Wird aus Datenbank übergeben -->
+$db_connection = mysqli_connect(„localhost“, „root“);
+$query = "SELECT $bankSiegpunkte FROM highscore;
+$array_playerscore = mysql_fetch_array($query);
 arsort($array_playerscore);
     echo  "{$array_playerscore[0]} hat das Spiel gewonnen!";
 
@@ -41,6 +33,7 @@ echo "</table>";
 
 highscoretable();
 ?>
+mysqli_close($db_connection); 
 
 <!-- Buttons zur Weiterführung in ein neues Spiel oder ins Menü -->	
 <form action=startinggame.php>		
@@ -48,6 +41,6 @@ highscoretable();
 </form>
 
 <form action=mainmenu.php>		
-	<button>Bestätigen</button>			
+	<button>Zum Menü</button>			
 </form>
 
