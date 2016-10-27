@@ -9,7 +9,7 @@
 		
 	</fieldset>	
 		<label for=login>Einloggen</label>
-		<input type=submit id=login>
+		<input type=submit id=login value="Abschicken" >
 </form>
 
   <form action=Gruppen_de/registration.php>
