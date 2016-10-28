@@ -3,17 +3,16 @@
 ========================================
 ==== Katalog struktureller Elemente ====
 ========================================
-Labels der Elemente sind innerhalb der "" zu finden
 Update 27.10.2016
 
-	-01- Textfeld, "Benutzername:" / Eingabe Benutzername
-	-02- Textfeld, "Passwort:" / Eingabe Passwort
+	-01- Textfeld / Eingabe Benutzername
+	-02- Textfeld / Eingabe Passwort
 	-03- 
 	-04- Schaltfläche, Checkbox  / Ton an&aus
 	-05- Schaltfläche, Button / Hauptmenü öffnen
 	-06- Schaltfläche, Button / How To
 	-07- 
-	-08- Schaltfläche, Button "Spiel Beenden" / Zum Hauptmenü
+	-08- Schaltfläche, Button / Zum Hauptmenü
 	-09- 
 	-10- 
 	-11- Schaltfläche, Button / Neues Spiel starten
@@ -67,11 +66,14 @@ Update 27.10.2016
 	-85- 
 	-86- Button / User hinzufügen
 	-87- Textfeld /Mitspieler-Account eingeben
-	-88- Schaltfläche (Button) / Shuffeln der Begegnungen
+	-88- Schaltfläche, Button / Shuffeln der Begegnungen
 	-89- Schaltfläche, Button / Tunier erstellen
 	-90- Absatz / Name des Spiele-Autors
 	-91- Input - Submit / Formular abschicken
 	-92- Input - Button / Zum Spielfeld
+	-93- Label
+	-94- Legende
+	-95- Fieldset
 	
 ========================================	
 ==== Gruppen struktureller Elemente ====
@@ -82,9 +84,14 @@ Update 27.10.2016
 	=========
 	-68- Schaltfläche, Button / Link zur Neuregistrierung
 	-78- Formular-Container
-		-01- Textfeld, "Benutzername:" / Eingabe Benutzername
-		-02- Textfeld, "Passwort:" / Eingabe Passwort
-		-91- Input - Submit / Formular abschicken
+		-95- Fieldset
+		-94- Legende
+		-93- Label
+		-01- Textfeld / Eingabe Benutzername
+		-93- Label
+		-02- Textfeld / Eingabe Passwort
+	-93- Label
+	-91- Input - Submit / Formular abschicken
 	
 	
 	=========
@@ -151,9 +158,12 @@ Update 27.10.2016
 	X. NeuesSpiel
 	=========
 	-78- Formular-Container
-	-31- Textfeld, Eingabe "Newplayer" / Name des Spielers
-	-12- Schaltfläche, Checkbox, "Spieler"  / lokalen Spieler hinzufügen
-	-13- Schaltfläche, Checkbox, "KI" / KI-Gegner hinzufügen
+	-93- Label
+	-31- Textfeld, Eingabe / Name des Spielers
+	-93- Label
+	-12- Schaltfläche, Checkbox  / lokalen Spieler hinzufügen
+	-93- Label
+	-13- Schaltfläche, Checkbox / KI-Gegner hinzufügen
 	-91- Input - Submit / Formular abschicken
 	-14- Schaltfläche, Radio Button / Schwierigkeit hart
 	-15- Schaltfläche, Radio Button / Schwierigkeit leicht
@@ -163,11 +173,16 @@ Update 27.10.2016
 	XI. Anmeldung
 	=========
 	-78- Formular-Container
-		-01- Textfeld, "Benutzername:" / Eingabe Benutzername
-		-02- Textfeld, "Passwort:" / Eingabe Passwort
+		-95- Fieldset
+		-94- Legend
+		-93- Label
+		-01- Textfeld / Eingabe Benutzername
+		-93- Label
+		-02- Textfeld / Eingabe Passwort
 		-70- Input, Email / Email-Adresse eingeben
 		-72- Textfeld / Passwort wiederholen
-		-91- Input - Submit, "Submit" / Formular abschicken
+		-93- Label
+		-91- Input - Submit / Formular abschicken
 	-83- Schaltfläche, Button / Link zum Login
 	
 	
@@ -176,7 +191,8 @@ Update 27.10.2016
 	=========
 	
 	-04- Inputtyp, Checkbox / Ton an&aus
-	-08- Schaltfläche, Button "Spiel Beenden" / Zum Hauptmenü
+	-93- Label
+	-08- Schaltfläche, Button / Zum Hauptmenü
 	
 	=========
 	XIII. Tunier
@@ -184,8 +200,8 @@ Update 27.10.2016
 	-13- Schaltfläche, Button / KI-Gegner hinzufügen
 	-12- Schaltfläche, Spieler hinzufügen / Weiterer Spieler (bis zu 4)
 	-86- Button / User hinzufügen
-	-87- Textfeld /Mitspieler-Account eingeben
-	-88- Schaltfläche (Button) / Shuffeln der Begegnungen
+	-87- Textfeld / Mitspieler-Account eingeben
+	-88- Schaltfläche, Button / Shuffeln der Begegnungen
 	-75- Schaltfläche, Button / Bestätigen Button
 	
 ===================	
@@ -238,7 +254,8 @@ Update 27.10.2016
 === Feedback Alpers, 2016-04-12 ===
 ===================================
 
-Überarbeiten Sie die strukt.html bitte entsprechend der formalen Vorgaben und arbeiten entsprechend die strukturellen Elemente, Gruppen und Ansichten aus. Bitte machen Sie dabei nicht den Fehler, der vielen Ihrer Kommilitonen unterlaufen ist: Diese Aufgabe ist keine Fleißaufgabe im Sinne von "Schreibe 100 Mal ... an die Tafel), sondern es geht um einen Teil der Planung des Projekts: Hier untersuchen Sie, welche Elemente mehrfach enthalten sind. Wenn Sie das vollständig getan haben, reduziert es den Programmieraufwand und insbesondere die Fehleranfälligkeit. Auch der Aufwand für zukünftige Änderungen sinkt dadurch deutlich.
+Überarbeiten Sie die strukt.html bitte entsprechend der formalen Vorgaben und arbeiten entsprechend die strukturellen Elemente, Gruppen und Ansichten aus. Bitte machen Sie dabei nicht den Fehler, der vielen Ihrer Kommilitonen unterlaufen ist: Diese Aufgabe ist keine Fleißaufgabe im Sinne von 
+Schreibe 100 Mal ... an die Tafel), sondern es geht um einen Teil der Planung des Projekts: Hier untersuchen Sie, welche Elemente mehrfach enthalten sind. Wenn Sie das vollständig getan haben, reduziert es den Programmieraufwand und insbesondere die Fehleranfälligkeit. Auch der Aufwand für zukünftige Änderungen sinkt dadurch deutlich.
 -->
 
 <!--
