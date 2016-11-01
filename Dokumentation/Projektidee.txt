@@ -146,3 +146,60 @@ Bitte beachten Sie, dass eine der Voraussetzungen zum Erhalt des Leistungsnachwe
 ===================================
 
 Sie haben jetzt erste Formen von computergesteuerten Spielern entworfen, also einen Schritt in die richtige Richtung gemacht. Für die geforderte Interaktion fehlt noch, dass diese sich auf jeden Spieler individuell anpassen. Konkret bedeutet das: Der Computer reagiert auf Spieler A anders als auf Spieler B. Die Grundlage für diese Reaktion ist direkt davon abhängig, wie Spieler A und Spieler B in der Vergangenheit bzw. bislang in einer Partie gespielt haben.
+
+===================================
+=== Feedback Alpers, 2016-11-01 ===
+===================================
+
+=== 1.) Formales
+
+== 1.1.) Für die weitere Arbeit am Projekt etwas unübersichtlich.
+
+Bei der Entwicklung entwickeln Sie Struktur, Funktionalitäten (und ggf. Design, Layout, Usability) getrennt. In der aktuellen Form ist diese Trennung in der Beschreibung noch nicht zu sehen, was es erschwert, die Beschreibung vollständig umzusetzen, gerade wenn Sie im Team arbeiten.
+
+Es ist deshalb wichtig, dass Sie die inhaltlichen Aspekte von den funktionalen trennen.
+
+=== 2.) Inhaltliches
+
+== 2.1.) Was macht die Spielfelder aus?
+
+Oben haben Sie notiert, dass das Spielfeld aus Einzelfeldern bestehen soll, sind aber nicht auf weitere Eigenschaften der Felder eingegangen. Gibt es da nichts bzw. sind alle Felder gleich?
+
+== 2.2.) Was bewirkt das Platzieren eines Feldes? (u.ä.)
+
+Sie gehen vorrangig auf Aspekte wie den Schwierigkeitsgrad ein, aber der Spielablauf ist aus den Stichpunkten nicht erkennbar. (So notieren Sie beispielsweise, dass gehandelt wird. Aber für diese Beschreibung müssen Sie definieren, wie das ablaufen soll.)
+
+=== 3.) Verteilte Anwendung
+
+== 3.1.) Spielerzahl nicht beschränken.
+
+Eine der Vorgaben besteht darin, dass die Anwendung verteilt sein soll. Im Kern läuft es also darauf hinaus, dass Sie überlegen, wie Sie das Spiel so beschreiben, dass auch hunderte von Spielern gleichzeitig teilnehmen können. Hier wie an anderen Stellen sagen Sie nur, dass das möglich sein soll.
+
+=== 4.) Adaptive Anwendung
+
+Leider fehlt bei Ihnen das Adaptive.
+
+Bsp.:
+
+Die reaktion der KI soll auf alle gesammelten daten über den/die Spieler zugreifen die account weit gesammelt wurden um die Entscheidungen anzupassen.
+
+Dieser Satz beschreibt nur eine mögliche Grundlage jeder Art adaptiver Anwendung.
+
+=== 5.) Malus
+
+== 5.1.) Design: Hervorherbungen ohne Grund.
+
+Sie geben an, dass die Felder am Rand hervorgehoben werden sollen, ohne dass dafür ein Sinn erkennbar ist.
+
+=================================================
+=== Wertung 2: Projektentwurf: gesamt: 3 / 10 ===
+=================================================
+- Knappe und klare Stichpunkte 0 bis 2 Pk.: 2
+- Umfang der eigentlichen Anwendung 0 bis 3 Pk.: unklar
+- Aspekte verteilter Anwendungen 0 bis 3 Pk.: 1
+- Aspekte adaptiver Anwendungen 0 bis 2 Pk.: 0 
+=== (Malus beim Projektentwurf) ===
+- Werbeslogans u.ä. bis zu 3 Pk. Abzug: 0
+- Design- oder Layoutvorgaben bis zu 5 Pk. Abzug: 0 
+- Voraussetzung bekannten Wissens bis zu 5 Pk. Abzug: 0 
+(Dies ist keine abschließende Wertung.)
