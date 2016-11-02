@@ -1,3 +1,147 @@
+
+==============================================
+=== Projektidee Update Domsche, 2016-11-02 ===
+==============================================  
+
+---------------------
+--- Die Spielidee ---
+---------------------
+Im Projekt soll das Kartenspiel Targi umgesetzt werden. Hierbei muss der Spieler erfolgreich eine Karawane durch Handel aufbauen.
+Zum Handeln stehen ihm die drei Rohstoffe Datteln, Salz und Pfeffer zur verfügung. Diese kann er gegen Siegpunkte oder Erweiterungen für die Karawane eintauschen. Erweiterungen geben auch Siegpunkte. Ziel des Spielers ist es am Ende möglichst viele Siegpunkte zu haben.
+Der Spieler spielt hierbei gegen andere Karawanen die das gleiche Ziel haben und versuchen ihn zu behindern und gleichzeitig eine größere Karawane zu erhandeln.
+
+1. Das Spiel
+	1.1. Spielfeld
+	1.2. Spielablauf
+	1.3. Interface
+2. Mehrspieler-Mode
+	2.1 Account
+	2.2 Erstellen einer Partie
+	2.3 Schwierigkeit
+	2.4 Highscore
+3. Interaktion
+	3.1 sichtbare
+	3.2 unsichtbare
+  
+----------------
+--- Das Spiel---
+----------------
+
+---Spielfeld---
+---------------
+
+  Aufbau des Feldes:
+  
+    i) Das Spielfeld besteht aus einer 4x4 Tabelle
+    ii) Randfelder haben eine statische Funktion, Mittelfelder variieren im Spielverlauf
+    iii) Ein Räuber versucht das Spielfeld zu umrunden und läuft einmal über alle Randfelder
+    iv) Jeder Spieler hat 2 Marker die er auf ein Randfeld setzen kann
+    v) Mittelfelder sind entweder Ressourcen oder Erweiterungen
+    vi) Randfelder sind zufällige Ressourcenkarten und Spezialfelder
+    
+  Funktion der Felder:
+    i) Die größe des Spielfelds gibt gleichzeitig die Anzahl an möglichen Zügen vor
+    ii) Werden zwei Randfelder besetzt, so wird gleichzeitig auch die Karte im Mittelfeld besetzt, wo sich Zeile und Spalte kreuzen
+    iii) Hat der Räuber das Spielfeld umrundet ist das Spiel beendet
+    iv) Man kann ein Randfeld nicht besetzen, wenn gegenüber bereits ein Marker platziert wurde oder das Feld schon besetzt ist
+    v) Wird ein Feld aus dem Mittelfeld genutzt, so wird im folgenden Zug der andere Feldtyp nachgelegt. (z.B. Ressource wird zu                Erweiterung)
+    vi) Spezialfelder sind z.B. Händler (tausche Ressourcen im Verhältnis 2:1), Karawanenhandwerker (zufällige Erweiterung für halben           Preis), Silberschmiede (tausche Ressourcen gegen Siegpunkte im Verhältnis 3:1). Die restlichen Felder sind zufällige Ressourcen
+    
+---Spielablauf---
+-----------------
+
+  Ablauf der Phasen:
+    
+    i) Platzierungsphase
+    ii) Spielphase
+    iii) Vorbereitungsphase
+    
+  Inhalt der Phasen:
+  
+  i) Platzierungsphase:
+    a) In der Platzierungsphase setzen die Spielteilnehmer abwechselnd ihre Marker auf die Randfelder
+    b) Hat ein Spieler beide Marker gelegt, so wird automatisch das Feld, wo sich Zeile und Spalte kreuzen, besetzt
+    
+  ii) Spielphase:
+    a) Der Spieler, der die Platzierungsphase begonnen hat, fängt an
+    b) Der Spieler kann beide Randfelder und das Mittelfeld in beliebiger Reihe ausführen
+    c) Alle Ressourcen und Siegpunkte die er sammelt werden in seiner "Bank" gespeichert
+    d) Gebaute Erweiterungen werden seiner Karawane hinzugefügt
+    e) Erweiterungen haben zufällige Kosten (bis zu einer Anzahl von 6), pro 2 ausgegeben Ressourcen erhält man einen Siegpunkt
+    f) Für jede gefüllte Erweiterungszeile gibt es 2 Siegpunkte bonus, bei gefüllter Spalte 1 Siegpunkt bonus
+    
+  iii) Vorbereitungsphase:
+    a) Alle genutzten Mittelfelder werden mit dem anderen Feldtyp aufgefüllt
+    b) Der Räuber fährt ein Randfeld weiter
+    c) Die Platzierungsreihenfolge rückt einen Spieler auf
+    
+---Interface---
+---------------
+
+    Aufbau des Interface
+    
+    i) Spielfeld
+    ii) Bank der Spieler
+    iii) Karawane der Spieler
+    iv) Chat- und Spiellog
+    
+    Funktion der Elemente
+    
+    i) Anzeigen der Spielfelder und wer sie momentan besetzt
+    ii) Tabelle 5x2 für jeden Spieler, zeigt die aktuellen Ressourcen (Tabellenreiter, Datteln, Salz, Pfeffer, Siegpunkte)
+    iii) Tabelle 4x4 für jeden Spieler, zeigt den aktuellen Stand der Karawane. Jedes Feld ist eine Erweiterung
+    iv) Kommunikation der Spieler und Ausgabe der durchgeführten Züge
+    
+-----------------------
+--- Mehrspieler-Mode---
+-----------------------
+
+Der Spieler kann gegen KI-Gegner oder menschliche Spieler antreten. Der Anzahl an Mitspielern ist keine grenze gesetzt, da das Spielfeld dynamisch erzeugt wird. Mit jedem weiteren Mitspieler wird das Feld um eine Zeile und eine Spalte erweitert (Standard bei 2 Spielern ist 4x4). Verlässt ein Spieler die laufende Partie so wird er automatisch mit einer leichten KI ersetzt.
+
+
+--- Account---
+--------------
+
+Jeder User verfügt über seinen eigenen Account. Hierunter sind seine bisherigen Bestleistungen und bisher gesammelte Ressourcen abgespeichert.
+Er benötigt einen einzigartigen Username und ein Passwort
+
+
+--- Erstellen einer Partie---
+-----------------------------
+
+Beginnt der Spieler eine Partie so kann er anwählen ob er einen KI-Gegner hinzufügen möchte, oder aber einen anderen Spieler einlädt.
+Die KI soll zwei Schwierigkeitsgrade besitzen (leicht und schwer).
+Hierzu muss er den Username des gewünschten Mitspielers in ein Feld eingeben. Alle Partieteilnehmer werden angezeigt. 
+Der Ersteller des Spiels entscheidet, wann die Partie losgehen soll.
+
+---Schwierigkeit---
+-------------------
+
+Ein leichter KI-Gegner soll nur seine eigene Karawane im Blick behalten. Sollte der Spieler eine schwere KI hinzufügen, so versucht diese den Spieler möglichst gut am vorrankommen zu hindern. Das bedeutet, dass sie vor allem Ressourcenfelder besetzt, von denen die anderen Spieler am wenigsten besitzen (um quasi ein Monopol aufzubauen). Zusätzlich greift die KI auf die Userdaten zurück, aus denen hervorgeht, welche Ressourcen der Spieler vor allem gesammelt hat um so das gewohnte Spiel aufzubrechen. Sollten mehrere menschliche Spieler teilnehmen, so konzentriert sich die KI auf den, der den höchsten Eintrag in der Highscore-Liste besitzt.
+
+---Highscore---
+---------------
+
+Am Ende einer jeden Partie wird die aktuelle Highscore-Liste angezeigt. Hier werden die Spieler aufgelistet, die bisher am meisten Siegpunkte am Ende einer Partie erreicht haben.
+
+-------------------
+--- Interaktion ---
+-------------------
+
+--- sichtbare ---
+-----------------
+  Der Spieler betätigt Tabellenfelder um sie zu besetzten (nur Randfelder)
+    - Erneutes betätigen aktiviert das Feld in der Spielphase
+    - Betätigen einer Zelle der Karawanentabelle fügt sie am gewünschten Ort ein
+    - Betätigen von Ressourcenbildern dient zum Eintauschen
+    
+--- unsichtbare ---
+-------------------
+  Gespeicherte Ressourcen- und Siegpunkte-Daten werden von schwerer KI genutzt
+    - konzentriert sich auf Ressourcen, die der Spieler bevorzugte in der Vergangenheit sammelte
+    - Besetzt Ressourcen, die den anderen Spielern fehlen
+    - Spieler mit dem höchsten Highscore-Eintrag gilt als größte Gefahr
+
 ==============================================
 === Projektidee Update Domsche, 2016-10-25 ===
 ==============================================
