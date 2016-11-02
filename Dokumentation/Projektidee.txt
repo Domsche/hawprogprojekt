@@ -13,7 +13,7 @@ Der Spieler spielt hierbei gegen andere Karawanen die das gleiche Ziel haben und
 1. Das Spiel
 	1.1. Spielfeld
 	1.2. Spielablauf
-	1.3. Interface
+	1.3. Weitere Spielelemente
 2. Mehrspieler-Mode
 	2.1 Account
 	2.2 Erstellen einer Partie
@@ -75,10 +75,10 @@ Der Spieler spielt hierbei gegen andere Karawanen die das gleiche Ziel haben und
     b) Der Räuber fährt ein Randfeld weiter
     c) Die Platzierungsreihenfolge rückt einen Spieler auf
     
----Interface---
----------------
+---Weitere Spielelemente---
+---------------------------
 
-    Aufbau des Interface
+    Bestandteile der Spielübersicht
     
     i) Spielfeld
     ii) Bank der Spieler
