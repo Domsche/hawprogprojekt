@@ -64,7 +64,7 @@ Der Spieler spielt hierbei gegen andere Karawanen die das gleiche Ziel haben und
     
   ii) Spielphase:
     a) Der Spieler, der die Platzierungsphase begonnen hat, fängt an
-    b) Der Spieler kann beide Randfelder und das Mittelfeld in beliebiger Reihe ausführen
+    b) Der Spieler kann beide Randfelder und das Mittelfeld in beliebiger Reihenfolge ausführen
     c) Alle Ressourcen und Siegpunkte die er sammelt werden in seiner "Bank" gespeichert
     d) Gebaute Erweiterungen werden seiner Karawane hinzugefügt
     e) Erweiterungen haben zufällige Kosten (bis zu einer Anzahl von 6), pro 2 ausgegeben Ressourcen erhält man einen Siegpunkt
@@ -74,6 +74,8 @@ Der Spieler spielt hierbei gegen andere Karawanen die das gleiche Ziel haben und
     a) Alle genutzten Mittelfelder werden mit dem anderen Feldtyp aufgefüllt
     b) Der Räuber fährt ein Randfeld weiter
     c) Die Platzierungsreihenfolge rückt einen Spieler auf
+    
+    Nach der Vorbereitungsphase beginnt eine neue Runde mit der Platzierungsphase, bis der Räuber einmal alle Randfelder umrundet hat.
     
 ---Weitere Spielelemente---
 ---------------------------
