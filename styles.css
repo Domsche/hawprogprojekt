@@ -1,0 +1,17 @@
+
+html {
+  background-image:url(images/oase.jpg);
+  background-size:100% auto;	
+}
+
+h1 {
+    font-family: verdana;
+    color: #D8D8D8;
+    text-align: left;
+}
+
+p {
+    color: #A9D0F5
+    font-family: verdana;
+    font-size: 20px;
+}

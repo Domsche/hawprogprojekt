@@ -1,8 +1,4 @@
-<?php
- 
-$db_connection = mysqli_connect(„localhost“, „root");
-
-?>
+﻿
 <form>
   <fieldset>
     <label for="newplayer">Neuer Spieler:</label> 

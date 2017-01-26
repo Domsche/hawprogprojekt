@@ -1,6 +1,7 @@
-html, body {
+html, body {
+  background-image: url(images/oase.jpg)	
   background-color: #151515;
-  background:url(images/targilog.jpg) center top;
+  background-size:100% auto;	
 }
 
 h1 {

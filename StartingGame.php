@@ -6,6 +6,7 @@
 		<link rel=stylesheet href=styles.css>
 	</head>
 	<body>
+	<link rel="stylesheet" href="styles.css">
 	  <main>
 	    <header>
 	    	<h1>Spiel Starten</h1>
